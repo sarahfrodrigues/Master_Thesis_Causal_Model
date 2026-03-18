@@ -1,0 +1,16 @@
+node,label,P(X=1)
+topic_14,High EGT,0.0554
+topic_2,ATC Communication Issues,0.2215
+topic_8,Fuel System Installation Issues,0.0638
+topic_7,Turbulence Encounter,0.14591445
+topic_6,Fatigue Crack,0.06838774000000002
+topic_10,Electrical Wiring Damage,0.054284093947999996
+topic_13,Aircraft Electrical System Faults,0.04522322595399999
+topic_11,Fan Blade Failure,0.036812503050520806
+topic_18,Hydraulic System Pressure Issues,0.047132230185448785
+topic_4,Landing Gear Malfunctions,0.14544464519079997
+topic_16,Smoke or Odor in Cabin,0.055321885059872816
+topic_15,Turbine & Compressor Damage,0.04312467602575476
+topic_9,Runway & Taxiway Incidents,0.09566427938414798
+topic_0,Passenger & Crew Injuries,0.5582811854846425
+topic_1,Aircraft Structural Damage,0.2735257019938974
