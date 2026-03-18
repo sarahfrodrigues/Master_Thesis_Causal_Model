@@ -1,0 +1,14 @@
+PARTIAL ANCESTRAL GRAPH (PAG) FROM FCI ALGORITHM
+============================================================
+
+PAG Edge Notation:
+- '-->' : Directed edge (A causes B)
+- '<--' : Directed edge (B causes A)
+- 'o->' : Partially directed (possible causation)
+- '<-o' : Partially directed reverse
+- '<->' : Bidirected (latent confounder)
+- 'o-o' : Non-directed (uncertain orientation)
+
+Number of variables: 13
+Number of edges: 0
+

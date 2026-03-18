@@ -1,0 +1,1 @@
+Coherence score (c_v): 0.5932
