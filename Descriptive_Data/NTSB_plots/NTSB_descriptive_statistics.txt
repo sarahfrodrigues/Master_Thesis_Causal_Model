@@ -1,0 +1,79 @@
+================================================================================
+NTSB DESCRIPTIVE STATISTICS AND N-GRAM VOCABULARY
+================================================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------------------------------------
+Total number of narratives: 845
+
+2. SENTENCE COUNT STATISTICS
+--------------------------------------------------------------------------------
+Mean      : 15.11
+Median    : 14.00
+Std       : 7.28
+Min       : 3.00
+Max       : 48.00
+
+3. WORD COUNT STATISTICS
+--------------------------------------------------------------------------------
+Mean      : 296.92
+Median    : 280.00
+Std       : 134.49
+Min       : 86.00
+Max       : 596.00
+
+4. BIGRAM VOCABULARY
+--------------------------------------------------------------------------------
+air_traffic
+airlines_inc
+aviation_administration
+central_daylight
+chicago_illinois
+code_federal
+condition_prevail
+crew_member
+data_recorder
+eastern_daylight
+eastern_standard
+en_route
+federal_regulation
+first_officer
+instrument_rule
+landing_gear
+main_landing
+mcdonnell_douglas
+meteorological_condition
+minor_injury
+moderate_turbulence
+new_york
+no_injury
+not_injure
+plan_file
+receive_minor
+rule_plan
+safety_board
+schedule_domestic
+sea_level
+seat_belt
+seatbelt_sign
+seriously_injure
+substantial_damage
+sustain_minor
+title_cfr
+traffic_control
+united_airlines
+visual_meteorological
+wing_walker
+
+5. TRIGRAM VOCABULARY
+--------------------------------------------------------------------------------
+air_traffic_control
+captain_first_officer
+code_federal_regulation
+federal_aviation_administration
+instrument_meteorological_condition
+instrument_rule_plan
+main_landing_gear
+mean_sea_level
+on_instrument_rule
+seat_belt_sign

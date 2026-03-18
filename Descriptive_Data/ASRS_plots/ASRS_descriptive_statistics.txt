@@ -1,0 +1,4452 @@
+================================================================================
+ASRS DESCRIPTIVE STATISTICS AND N-GRAM VOCABULARY
+================================================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------------------------------------
+Total number of narratives: 47,114
+Date range: 2006 - 2024
+Total sentences: 679,877
+Total words: 12,177,591
+
+2. SENTENCE COUNT STATISTICS
+--------------------------------------------------------------------------------
+Mean      : 14.43
+Median    : 13.00
+Std       : 6.75
+Min       : 1.00
+Max       : 58.00
+
+3. WORD COUNT STATISTICS
+--------------------------------------------------------------------------------
+Mean      : 258.47
+Median    : 231.00
+Std       : 121.13
+Min       : 77.00
+Max       : 644.00
+
+4. TOKEN STATISTICS (AFTER PREPROCESSING)
+--------------------------------------------------------------------------------
+Total tokens: 5,172,375
+Average tokens per document: 109.8
+Vocabulary size: 69,423
+
+5. BIGRAM VOCABULARY
+--------------------------------------------------------------------------------
+Total unique bigrams: 3,943
+
+   1. 000_foot
+   2. 000_fpm
+   3. 000_lb
+   4. 000_lbs
+   5. 000_pound
+   6. 010_degs
+   7. 030_degs
+   8. 060_degs
+   9. 070_degs
+  10. 090_deg
+  11. 090_degree
+  12. 090_degs
+  13. 0_degree
+  14. 0_psi
+  15. 1-2_second
+  16. 1/2_dot
+  17. 1/2_hour
+  18. 1/2_hr
+  19. 1/2_inch
+  20. 1/2_mi
+  21. 1/2_mile
+  22. 1/2_way
+  23. 1/4_mile
+  24. 1/8_inch
+  25. 10-15_kt
+  26. 10-15_minute
+  27. 10-15_second
+  28. 10-7_page
+  29. 10-9_chart
+  30. 10-9_page
+  31. 100-200_foot
+  32. 10000_foot
+  33. 1000_foot
+  34. 1000_fpm
+  35. 1000_lb
+  36. 100_degree
+  37. 100_foot
+  38. 100_fpm
+  39. 100_knot
+  40. 100_kt
+  41. 100_kts
+  42. 100_lb
+  43. 100_mile
+  44. 100_nm
+  45. 100_percent
+  46. 100_sure
+  47. 100_yard
+  48. 10500_foot
+  49. 10_000
+  50. 10_000ft
+  51. 10_clock
+  52. 10_degree
+  53. 10_degs
+  54. 10_knot
+  55. 10_kt
+  56. 10_mi
+  57. 10_mile
+  58. 10_min
+  59. 10_minute
+  60. 10_nm
+  61. 10_second
+  62. 10_sm
+  63. 10th_stage
+  64. 11000_foot
+  65. 1100_foot
+  66. 110_degree
+  67. 110_kt
+  68. 11_000
+  69. 11_500
+  70. 11_clock
+  71. 12000_foot
+  72. 1200_code
+  73. 1200_foot
+  74. 1200_fpm
+  75. 120_degree
+  76. 120_degs
+  77. 120_knot
+  78. 120_kt
+  79. 121_5
+  80. 123_45
+  81. 12_000
+  82. 12_clock
+  83. 12_hour
+  84. 12_hr
+  85. 12_inch
+  86. 12_mile
+  87. 13000_foot
+  88. 1300_foot
+  89. 130_degree
+  90. 130_kt
+  91. 13_000
+  92. 13_hour
+  93. 14000_foot
+  94. 1400_foot
+  95. 140_knot
+  96. 140_kt
+  97. 14_000
+  98. 14_cfr
+  99. 14_hour
+ 100. 14_hr
+ 101. 14th_stage
+ 102. 15-20_minute
+ 103. 15000_foot
+ 104. 1500_foot
+ 105. 1500_fpm
+ 106. 1500_lb
+ 107. 150_degree
+ 108. 150_foot
+ 109. 150_knot
+ 110. 150_kt
+ 111. 15_000
+ 112. 15_bag
+ 113. 15_degree
+ 114. 15_degs
+ 115. 15_knot
+ 116. 15_kt
+ 117. 15_mi
+ 118. 15_mile
+ 119. 15_min
+ 120. 15_minute
+ 121. 15_nm
+ 122. 15_second
+ 123. 16000_foot
+ 124. 1600_foot
+ 125. 160_knot
+ 126. 160_kt
+ 127. 16_000
+ 128. 17000_foot
+ 129. 1700_foot
+ 130. 170_knot
+ 131. 170_kt
+ 132. 17_000
+ 133. 18000_foot
+ 134. 1800_foot
+ 135. 180_deg
+ 136. 180_degree
+ 137. 180_degs
+ 138. 180_knot
+ 139. 180_kt
+ 140. 18_000
+ 141. 18_inch
+ 142. 1900_foot
+ 143. 190_degs
+ 144. 190_knot
+ 145. 190_kt
+ 146. 19_dca
+ 147. 1_000
+ 148. 1_1/2
+ 149. 1_800
+ 150. 1_hr
+ 151. 1l_1r
+ 152. 1l_door
+ 153. 2-3_mile
+ 154. 2-3_minute
+ 155. 2-3_second
+ 156. 20-30_second
+ 157. 200-300_foot
+ 158. 20000_foot
+ 159. 2000_foot
+ 160. 2000_fpm
+ 161. 2000_lb
+ 162. 200_degree
+ 163. 200_foot
+ 164. 200_fpm
+ 165. 200_knot
+ 166. 200_kt
+ 167. 200_lb
+ 168. 200_nm
+ 169. 200_pound
+ 170. 20_degree
+ 171. 20_degs
+ 172. 20_knot
+ 173. 20_kt
+ 174. 20_mi
+ 175. 20_mile
+ 176. 20_min
+ 177. 20_minute
+ 178. 20_nm
+ 179. 20_second
+ 180. 20_year
+ 181. 2100_foot
+ 182. 210_degs
+ 183. 210_knot
+ 184. 210_kt
+ 185. 2200_foot
+ 186. 220_degree
+ 187. 220_degs
+ 188. 220_knot
+ 189. 220_kt
+ 190. 2300_foot
+ 191. 230_knot
+ 192. 230_kt
+ 193. 24000_foot
+ 194. 2400_foot
+ 195. 240_degree
+ 196. 240_degs
+ 197. 240_knot
+ 198. 240_kt
+ 199. 24_hour
+ 200. 24_hr
+ 201. 24r_lax
+ 202. 2500_foot
+ 203. 250_degree
+ 204. 250_knot
+ 205. 250_kt
+ 206. 250_kts
+ 207. 25_degree
+ 208. 25_kt
+ 209. 25_mile
+ 210. 25_min
+ 211. 25_minute
+ 212. 25_nm
+ 213. 2600_foot
+ 214. 260_degs
+ 215. 260_kt
+ 216. 2700_foot
+ 217. 270_deg
+ 218. 270_degree
+ 219. 270_degs
+ 220. 270_knot
+ 221. 270_kt
+ 222. 27_san
+ 223. 2800_foot
+ 224. 280_degs
+ 225. 280_knot
+ 226. 280_kt
+ 227. 28l_28r
+ 228. 28r_sfo
+ 229. 290_knot
+ 230. 290_kt
+ 231. 29_92
+ 232. 2_000
+ 233. 2_500
+ 234. 2_hr
+ 235. 3-5_second
+ 236. 300-400_foot
+ 237. 3000_foot
+ 238. 3000_fpm
+ 239. 3000_lb
+ 240. 300_degree
+ 241. 300_degs
+ 242. 300_foot
+ 243. 300_fpm
+ 244. 300_knot
+ 245. 300_kt
+ 246. 300_lb
+ 247. 300_pound
+ 248. 30_40
+ 249. 30_deg
+ 250. 30_degree
+ 251. 30_degs
+ 252. 30_knot
+ 253. 30_kt
+ 254. 30_mile
+ 255. 30_min
+ 256. 30_minute
+ 257. 30_nm
+ 258. 30_second
+ 259. 30_year
+ 260. 31000_foot
+ 261. 3100_foot
+ 262. 310_kt
+ 263. 31_lga
+ 264. 3200_foot
+ 265. 320_kt
+ 266. 33000_foot
+ 267. 3300_foot
+ 268. 330_degree
+ 269. 330_degs
+ 270. 34000_foot
+ 271. 3400_foot
+ 272. 340_degs
+ 273. 35000_foot
+ 274. 3500_foot
+ 275. 35_degree
+ 276. 35_minute
+ 277. 36000_foot
+ 278. 3600_foot
+ 279. 360_deg
+ 280. 360_degree
+ 281. 360_degs
+ 282. 37000_foot
+ 283. 3700_foot
+ 284. 3800_foot
+ 285. 3_000
+ 286. 3_green
+ 287. 3_hr
+ 288. 3_mi
+ 289. 3_mile
+ 290. 3_nm
+ 291. 4-day_trip
+ 292. 400-500_foot
+ 293. 4000_foot
+ 294. 4000_fpm
+ 295. 4000_lb
+ 296. 400_foot
+ 297. 400_lb
+ 298. 400_pound
+ 299. 40_degree
+ 300. 40_knot
+ 301. 40_kt
+ 302. 40_mi
+ 303. 40_mile
+ 304. 40_min
+ 305. 40_minute
+ 306. 40_n1
+ 307. 40_nm
+ 308. 4300_foot
+ 309. 4400_foot
+ 310. 4500_foot
+ 311. 45_degree
+ 312. 45_min
+ 313. 45_minute
+ 314. 45_second
+ 315. 4_0
+ 316. 4_000
+ 317. 4_mi
+ 318. 4_mile
+ 319. 4_nm
+ 320. 5-10_minute
+ 321. 5-10_second
+ 322. 5000_foot
+ 323. 5000_lb
+ 324. 500_foot
+ 325. 500_fpm
+ 326. 500_lb
+ 327. 500_pound
+ 328. 50_foot
+ 329. 50_knot
+ 330. 50_kt
+ 331. 50_mile
+ 332. 50_min
+ 333. 50_minute
+ 334. 50_nm
+ 335. 5500_foot
+ 336. 5_0
+ 337. 5_000
+ 338. 5_6
+ 339. 5_degree
+ 340. 5_degs
+ 341. 5_hour
+ 342. 5_hr
+ 343. 5_mi
+ 344. 5_mile
+ 345. 5_min
+ 346. 5_minute
+ 347. 5_nm
+ 348. 5g_interference
+ 349. 6000_foot
+ 350. 600_foot
+ 351. 600_fpm
+ 352. 600_lb
+ 353. 60_degree
+ 354. 60_knot
+ 355. 60_kt
+ 356. 60_mile
+ 357. 60_second
+ 358. 6500_foot
+ 359. 6_000
+ 360. 6_inch
+ 361. 6_mi
+ 362. 6_mile
+ 363. 6_month
+ 364. 7000_foot
+ 365. 700_foot
+ 366. 700_fpm
+ 367. 700_lb
+ 368. 70_degree
+ 369. 70_knot
+ 370. 70_kt
+ 371. 7110_65
+ 372. 737_max
+ 373. 7500_foot
+ 374. 750_foot
+ 375. 78_mach
+ 376. 7_000
+ 377. 7_8
+ 378. 7_mi
+ 379. 7_mile
+ 380. 8000_foot
+ 381. 800_foot
+ 382. 800_fpm
+ 383. 800_lb
+ 384. 800_pound
+ 385. 80_knot
+ 386. 80_kt
+ 387. 80_kts
+ 388. 80_mile
+ 389. 80_nm
+ 390. 8500_foot
+ 391. 8_000
+ 392. 8_hour
+ 393. 8_hr
+ 394. 8_mi
+ 395. 8_mile
+ 396. 8_nm
+ 397. 9000_foot
+ 398. 900_foot
+ 399. 900_lb
+ 400. 90_deg
+ 401. 90_degree
+ 402. 90_degs
+ 403. 90_knot
+ 404. 90_kt
+ 405. 90_minute
+ 406. 9500_foot
+ 407. 9_000
+ 408. 9_clock
+ 409. _29-xx-xx
+ 410. _assured
+ 411. abeam_gate
+ 412. able_regain
+ 413. abnormal_indication
+ 414. abnormally_high
+ 415. abort_takeoff
+ 416. aborted_takeoff
+ 417. abrupt_stop
+ 418. absolutely_no
+ 419. absorber_fault
+ 420. abundance_caution
+ 421. ac_bus
+ 422. ac_power
+ 423. acars_ed
+ 424. acars_message
+ 425. acars_printer
+ 426. accelerate_rapidly
+ 427. acceleration_height
+ 428. accept_handoff
+ 429. accept_responsibility
+ 430. accept_visual
+ 431. access_door
+ 432. access_panel
+ 433. access_road
+ 434. accident_wait
+ 435. accomplish_task
+ 436. accordance_fom
+ 437. accordance_iaw
+ 438. accordance_sop
+ 439. accumulator_pressure
+ 440. acknowledge_transmission
+ 441. acknowledgement_code
+ 442. acquire_visually
+ 443. acr_x
+ 444. acr_z
+ 445. acrid_odor
+ 446. acrid_smell
+ 447. act_like
+ 448. action_item
+ 449. activate_secondary
+ 450. active_taxiway
+ 451. active_waypoint
+ 452. add_additional
+ 453. add_complexity
+ 454. add_confusion
+ 455. add_power
+ 456. add_workload
+ 457. added_power
+ 458. additional_information
+ 459. additional_training
+ 460. additive_condition
+ 461. adequate_rest
+ 462. adequate_separation
+ 463. adequate_spacing
+ 464. adjacent_gate
+ 465. adjacent_sector
+ 466. advance_power
+ 467. advance_throttle
+ 468. advance_thrust
+ 469. adverse_effect
+ 470. adverse_weather
+ 471. adversely_affect
+ 472. advisory_effect
+ 473. advisory_message
+ 474. affect_safety
+ 475. affected_area
+ 476. aft_bin
+ 477. aft_bulk
+ 478. aft_cabin
+ 479. aft_cargo
+ 480. aft_compartment
+ 481. aft_galley
+ 482. aft_lav
+ 483. aft_lavatory
+ 484. aft_pit
+ 485. aft_section
+ 486. agree_assessment
+ 487. ahead_u
+ 488. aid_kit
+ 489. aileron_deflection
+ 490. aileron_input
+ 491. aileron_trim
+ 492. airbus_320
+ 493. airbus_fleet
+ 494. airfield_rescue
+ 495. airframe_vibration
+ 496. airspace_violation
+ 497. airspd_indicator
+ 498. airspeed_bug
+ 499. airspeed_decay
+ 500. airspeed_decrease
+ 501. airspeed_disagree
+ 502. airspeed_fluctuation
+ 503. airspeed_increase
+ 504. airspeed_indicator
+ 505. airspeed_tape
+ 506. airspeed_trend
+ 507. airspeed_unreliable
+ 508. airworthiness_directive
+ 509. airworthiness_release
+ 510. aisle_chair
+ 511. alarm_sound
+ 512. almost_always
+ 513. almost_every
+ 514. almost_identical
+ 515. almost_immediately
+ 516. almost_impossible
+ 517. almost_simultaneously
+ 518. along_route
+ 519. along_rte
+ 520. alt_cap
+ 521. alt_disagree
+ 522. alt_restr
+ 523. alt_restrs
+ 524. alt_window
+ 525. alternate_law
+ 526. alternate_method
+ 527. altimeter_29
+ 528. altimeter_read
+ 529. altimeter_set
+ 530. altimeter_setting
+ 531. amber_band
+ 532. amber_dash
+ 533. amber_range
+ 534. ambient_temperature
+ 535. amend_release
+ 536. amended_clearance
+ 537. amended_release
+ 538. aml_entry
+ 539. amm_reference
+ 540. amm_task
+ 541. analyze_situation
+ 542. angle_attack
+ 543. angle_bank
+ 544. announce_intention
+ 545. announcement_make
+ 546. announcement_passenger
+ 547. annunciator_illuminate
+ 548. annunciator_light
+ 549. annunciator_panel
+ 550. another_carrier
+ 551. answer_affirmative
+ 552. answer_phone
+ 553. answer_question
+ 554. answer_yes
+ 555. anti-ice_duct
+ 556. anti-ice_valve
+ 557. anti_ice
+ 558. anti_skid
+ 559. anyone_else
+ 560. anything_abnormal
+ 561. anything_else
+ 562. anything_ordinary
+ 563. anything_unusual
+ 564. anything_wrong
+ 565. anywhere_else
+ 566. anywhere_near
+ 567. aoa_vane
+ 568. ap_autopilot
+ 569. app_mode
+ 570. apparent_damage
+ 571. applicable_checklist
+ 572. apply_brake
+ 573. apply_full
+ 574. apply_maximum
+ 575. appropriate_action
+ 576. appropriate_checklist
+ 577. appropriate_chklists
+ 578. approx_50
+ 579. approx_xa00
+ 580. approximately_10
+ 581. approximately_120
+ 582. approximately_15
+ 583. approximately_15-20
+ 584. approximately_150
+ 585. approximately_20
+ 586. approximately_30
+ 587. approximately_50
+ 588. approximately_60
+ 589. approximately_70
+ 590. approximately_90
+ 591. approximately_xa
+ 592. arff_inspect
+ 593. arff_rescue
+ 594. arff_vehicle
+ 595. arm_door
+ 596. arm_lever
+ 597. arm_mode
+ 598. around_corner
+ 599. arrest_descent
+ 600. arrival_corridor
+ 601. arrival_iah
+ 602. arrival_lax
+ 603. arrive_gate
+ 604. ask_clarification
+ 605. assess_situation
+ 606. assigned_alt
+ 607. assistance_require
+ 608. assistant_chief
+ 609. attempt_restart
+ 610. attendant_fa
+ 611. attendant_fas
+ 612. attention_detail
+ 613. attitude_director
+ 614. attitude_indicator
+ 615. attitude_reference
+ 616. audible_warning
+ 617. audio_panel
+ 618. aural_alert
+ 619. aural_message
+ 620. aural_warn
+ 621. aural_warning
+ 622. auto_brake
+ 623. auto_fail
+ 624. auto_shutdown
+ 625. auto_throttle
+ 626. auto_thrust
+ 627. autoflight_system
+ 628. automate_weather
+ 629. automatic_dependent
+ 630. automatic_terminal
+ 631. autopilot_autothrottle
+ 632. autopilot_autothrottles
+ 633. autopilot_disconnect
+ 634. autopilot_disengage
+ 635. autopilot_engage
+ 636. autopilot_kick
+ 637. autopilot_re-engaged
+ 638. autopilot_reengaged
+ 639. autoplt_disconnect
+ 640. autoplt_disengage
+ 641. autoplt_engage
+ 642. autothrottles_engage
+ 643. aux_tank
+ 644. auxiliary_power
+ 645. available_resource
+ 646. aviate_navigate
+ 647. avionics_bay
+ 648. avionics_compartment
+ 649. avionics_smoke
+ 650. avionics_technician
+ 651. avoid_collision
+ 652. avoid_conflict
+ 653. avoid_future
+ 654. avoid_recurrence
+ 655. avoidance_maneuver
+ 656. avoidance_system
+ 657. axle_nut
+ 658. b_airspace
+ 659. b_c
+ 660. b_fa
+ 661. back_forth
+ 662. back_online
+ 663. bad_case
+ 664. bad_idea
+ 665. bag_cart
+ 666. bag_count
+ 667. bag_pit
+ 668. baggage_cart
+ 669. baggage_compartment
+ 670. baggage_handler
+ 671. ball_note
+ 672. banging_noise
+ 673. bank_angle
+ 674. barber_pole
+ 675. base_final
+ 676. base_leg
+ 677. bathroom_break
+ 678. battery_charger
+ 679. battery_power
+ 680. beacon_code
+ 681. become_airborne
+ 682. become_apparent
+ 683. become_aware
+ 684. become_complacent
+ 685. become_concerned
+ 686. become_distr
+ 687. become_distract
+ 688. become_distracted
+ 689. become_evident
+ 690. become_ill
+ 691. become_increasingly
+ 692. become_obvious
+ 693. behind_757
+ 694. behind_airbus
+ 695. behind_b757
+ 696. behind_heavy
+ 697. belt_loader
+ 698. belt_sign
+ 699. best_ability
+ 700. best_choice
+ 701. best_course
+ 702. best_guess
+ 703. best_interest
+ 704. best_knowledge
+ 705. best_option
+ 706. best_recollection
+ 707. best_solution
+ 708. beverage_cart
+ 709. beverage_service
+ 710. big_concern
+ 711. big_deal
+ 712. big_picture
+ 713. big_threat
+ 714. bingo_fuel
+ 715. bird_strike
+ 716. bite_test
+ 717. black_hole
+ 718. blatant_disregard
+ 719. bleed_duct
+ 720. bleed_leak
+ 721. bleed_source
+ 722. bleed_trip
+ 723. bleed_valve
+ 724. bleeds_pack
+ 725. bleeds_takeoff
+ 726. blind_spot
+ 727. block_view
+ 728. blocker_door
+ 729. blood_pressure
+ 730. blood_test
+ 731. blow_snow
+ 732. blow_tire
+ 733. blown_tire
+ 734. blue_hydraulic
+ 735. boarding_door
+ 736. boarding_process
+ 737. body_clock
+ 738. bog_vor
+ 739. bolt_instal
+ 740. book_entry
+ 741. boost_pump
+ 742. borescope_inspection
+ 743. bottom_line
+ 744. bounce_around
+ 745. box_pattern
+ 746. brace_command
+ 747. brace_position
+ 748. brake_action
+ 749. brake_application
+ 750. brake_assembly
+ 751. brake_cool
+ 752. brake_cooling
+ 753. brake_energy
+ 754. brake_fan
+ 755. brake_overheat
+ 756. brake_pedal
+ 757. brake_release
+ 758. brake_rider
+ 759. brake_set
+ 760. brake_temp
+ 761. brake_temperature
+ 762. brake_wear
+ 763. braking_action
+ 764. brand_new
+ 765. bravo_airspace
+ 766. break_cloud
+ 767. break_free
+ 768. breakdown_communication
+ 769. breaker_pop
+ 770. breaker_pull
+ 771. breezy_point
+ 772. brief_discussion
+ 773. briefing_page
+ 774. briefly_discuss
+ 775. bright_light
+ 776. bring_attention
+ 777. bring_attn
+ 778. build_ups
+ 779. burn_eye
+ 780. burn_fuel
+ 781. burn_gas
+ 782. burn_plastic
+ 783. burn_rubber
+ 784. burn_sensation
+ 785. burn_smell
+ 786. burning_odor
+ 787. burning_plastic
+ 788. burning_rubber
+ 789. burning_smell
+ 790. burnt_rubber
+ 791. bus_tie
+ 792. business_class
+ 793. business_jet
+ 794. busy_session
+ 795. bypass_pin
+ 796. c_attendant
+ 797. c_fa
+ 798. cab_alt
+ 799. cab_coordinator
+ 800. cab_pr
+ 801. cabin_advisory
+ 802. cabin_alt
+ 803. cabin_pressure
+ 804. cabin_pressurization
+ 805. cabin_temp
+ 806. cabin_temperature
+ 807. calibrate_airspeed
+ 808. calibrated_airspeed
+ 809. call_fatigued
+ 810. call_scheduling
+ 811. call_sign
+ 812. callback_conversation
+ 813. calm_wind
+ 814. canarsie_clb
+ 815. cancel_clearance
+ 816. cancel_takeoff
+ 817. cannon_plug
+ 818. canon_plug
+ 819. capture_glide
+ 820. capture_glideslope
+ 821. capture_localizer
+ 822. carbon_monoxide
+ 823. carbon_seal
+ 824. cargo_bay
+ 825. cargo_bin
+ 826. cargo_compartment
+ 827. cargo_door
+ 828. cargo_fire
+ 829. cargo_load
+ 830. cargo_pit
+ 831. carrier_x
+ 832. carrier_xxxx
+ 833. carrier_z
+ 834. carry-on_bag
+ 835. carry_forward
+ 836. case_scenario
+ 837. cat_3
+ 838. cat_ii
+ 839. cat_ii/iii
+ 840. cat_iii
+ 841. catalog_ipc
+ 842. catch_attention
+ 843. catch_error
+ 844. catch_guard
+ 845. catch_mistake
+ 846. cater_truck
+ 847. catering_truck
+ 848. causal_factor
+ 849. cause_confusion
+ 850. caution_light
+ 851. caution_message
+ 852. caution_msg
+ 853. caution_obstacle
+ 854. caution_terrain
+ 855. cb_pop
+ 856. ceiling_visibility
+ 857. cell_phone
+ 858. centralize_monitor
+ 859. cfr_inspect
+ 860. cfr_personnel
+ 861. chain_event
+ 862. check_airman
+ 863. checked_bag
+ 864. checklist_complete
+ 865. chemical_smell
+ 866. chest_pain
+ 867. chief_duty
+ 868. chief_office
+ 869. chief_plt
+ 870. chip_detector
+ 871. chk_airman
+ 872. chklists_complete
+ 873. chock_signal
+ 874. circadian_rhythm
+ 875. circuit_breaker
+ 876. civet_5
+ 877. civet_arrival
+ 878. class_airspace
+ 879. class_b
+ 880. class_bravo
+ 881. class_c
+ 882. class_galley
+ 883. class_ii
+ 884. clb_rate
+ 885. clbing_approx
+ 886. clean_configuration
+ 887. clean_maneuver
+ 888. clear_concise
+ 889. clear_conflict
+ 890. clear_sky
+ 891. clear_visual
+ 892. clearance_delivery
+ 893. clearly_mark
+ 894. clearly_state
+ 895. clearly_visible
+ 896. click_autopilot
+ 897. click_autoplt
+ 898. climb_fl230
+ 899. climb_gradient
+ 900. climb_rate
+ 901. climb_thru
+ 902. clock_po
+ 903. clock_pos
+ 904. clock_position
+ 905. close_discontinuity
+ 906. close_prox
+ 907. close_proximity
+ 908. close_suitable
+ 909. closed_portion
+ 910. closed_position
+ 911. closely_monitor
+ 912. closure_rate
+ 913. cloud_deck
+ 914. cloud_layer
+ 915. clr_conflict
+ 916. clred_dsnd
+ 917. clred_takeoff
+ 918. clred_visual
+ 919. cockpit_door
+ 920. cockpit_setup
+ 921. cockpit_windows
+ 922. coffee_maker
+ 923. coffee_pot
+ 924. cold_soak
+ 925. cold_temperature
+ 926. cold_weather
+ 927. collision_avoidance
+ 928. collision_course
+ 929. com_btwn
+ 930. combine_sector
+ 931. come_aboard
+ 932. come_alive
+ 933. come_back
+ 934. come_conclusion
+ 935. come_loose
+ 936. come_online
+ 937. comfort_level
+ 938. comm_1
+ 939. command_bar
+ 940. commercial_chart
+ 941. commercial_radio
+ 942. common_occurrence
+ 943. common_practice
+ 944. common_sense
+ 945. communicate_effectively
+ 946. communication_establish
+ 947. comp_mon
+ 948. company_policy
+ 949. company_procedures
+ 950. completely_unacceptable
+ 951. complicate_matter
+ 952. comply_instruction
+ 953. comply_ra
+ 954. comply_restriction
+ 955. compressor_stall
+ 956. compressor_vane
+ 957. compromise_safety
+ 958. computer_program
+ 959. concur_decision
+ 960. confer_dispatch
+ 961. confer_maintenance
+ 962. conference_call
+ 963. configure_deice
+ 964. configure_early
+ 965. conflict_alert
+ 966. conflict_resolve
+ 967. congested_airspace
+ 968. conserve_fuel
+ 969. considerable_amount
+ 970. consult_dispatch
+ 971. consult_quick
+ 972. contact_dispatch
+ 973. contacted_dispatch
+ 974. contacted_maintenance
+ 975. containment_bag
+ 976. content_locker
+ 977. contingency_fuel
+ 978. contingency_plan
+ 979. continue_dest
+ 980. continue_destination
+ 981. continue_uneventfully
+ 982. continuous_ignition
+ 983. continuous_moderate
+ 984. contract_maint
+ 985. contract_maintenance
+ 986. contract_mech
+ 987. contract_mechanic
+ 988. contribute_event
+ 989. contribute_factor
+ 990. contributing_factor
+ 991. controller_charge
+ 992. convective_activity
+ 993. convective_weather
+ 994. converge_course
+ 995. converging_course
+ 996. cool_fan
+ 997. coordinate_dispatch
+ 998. core_cowl
+ 999. corner_eye
+1000. corporate_jet
+1001. corrective_action
+1002. cost_index
+1003. cotter_pin
+1004. could_differently
+1005. could_easily
+1006. could_potentially
+1007. could_prevent
+1008. couple_hundred
+1009. couple_minute
+1010. couple_second
+1011. course_action
+1012. course_deviation
+1013. course_reversal
+1014. cover_snow
+1015. cowl_anti-ice
+1016. cpdlc_message
+1017. cracked_windshield
+1018. crash_fire
+1019. crash_rescue
+1020. create_confusion
+1021. create_unsafe
+1022. cri_vor
+1023. critical_area
+1024. critical_phase
+1025. cross_25r
+1026. cross_feed
+1027. cross_restriction
+1028. cross_threshold
+1029. cross_zzzzz
+1030. crossbleed_start
+1031. crossfeed_valve
+1032. crossing_restriction
+1033. cruise_alt
+1034. cruise_fl
+1035. cruise_fl310
+1036. cruise_fl320
+1037. cruise_fl330
+1038. cruise_fl340
+1039. cruise_fl350
+1040. cruise_fl360
+1041. cruise_fl370
+1042. cruise_fl380
+1043. cruise_fl390
+1044. cruise_fl400
+1045. cruise_phase
+1046. cruise_portion
+1047. ctr_gravity
+1048. ctr_tank
+1049. cup_coffee
+1050. customer_service
+1051. customer_svc
+1052. cut_corner
+1053. cutout_switch
+1054. cycle_gear
+1055. cycle_machine
+1056. daily_basis
+1057. damage_injury
+1058. dangerous_good
+1059. dangerous_situation
+1060. dangerously_close
+1061. dash_8
+1062. data_block
+1063. data_computer
+1064. data_link
+1065. data_recorder
+1066. data_tag
+1067. day_0
+1068. day_ago
+1069. day_earlier
+1070. day_later
+1071. day_trip
+1072. day_vmc
+1073. dc_bus
+1074. de-ice_fluid
+1075. de-ice_pad
+1076. de-ice_truck
+1077. de-icing_fluid
+1078. dead_head
+1079. debrief_event
+1080. decide_best
+1081. decide_divert
+1082. decision_divert
+1083. decision_height
+1084. decision_make
+1085. decision_making
+1086. deck_door
+1087. declare_emer
+1088. declare_emergency
+1089. declare_min
+1090. declare_minimum
+1091. declared_emergency
+1092. decrease_rapidly
+1093. deem_safe
+1094. defect_note
+1095. defer_inop
+1096. defer_item
+1097. deferral_sheet
+1098. deferred_item
+1099. deg_bank
+1100. deg_lndg
+1101. deg_radial
+1102. degree_bank
+1103. degree_c
+1104. degree_celsius
+1105. degree_nose
+1106. degree_radial
+1107. degs_c
+1108. degs_f
+1109. deice_fluid
+1110. deice_pad
+1111. deice_truck
+1112. delay_vector
+1113. demand_pump
+1114. deny_request
+1115. depart_uneventfully
+1116. departure_corridor
+1117. departure_stag
+1118. dependent_surveillance
+1119. dependent_surveillance-b
+1120. depict_chart
+1121. deplane_normally
+1122. deplane_passenger
+1123. deploy_spoiler
+1124. descend_fl240
+1125. descend_via
+1126. descent_profile
+1127. descent_rate
+1128. despite_fact
+1129. detect_odor
+1130. detection_equipment
+1131. determine_source
+1132. deviate_around
+1133. deviation_indicator
+1134. diagnose_problem
+1135. difference_btwn
+1136. differential_braking
+1137. differential_pressure
+1138. difficult_see
+1139. difficult_understand
+1140. difficulty_breathe
+1141. direct_law
+1142. direct_routing
+1143. direct_zzzzz
+1144. direct_zzzzz1
+1145. directional_radio
+1146. directly_ahead
+1147. directly_behind
+1148. directly_front
+1149. directly_overhead
+1150. directly_towards
+1151. directly_underneath
+1152. director_command
+1153. director_fd
+1154. director_indicator
+1155. dirty_sock
+1156. disagree_eicas
+1157. disagree_message
+1158. disarm_door
+1159. discharge_bottle
+1160. disciplinary_action
+1161. disconnect_ap
+1162. disconnect_auto
+1163. disconnect_autopilot
+1164. disconnect_autoplt
+1165. disconnect_autothrottles
+1166. disconnect_headset
+1167. disconnect_idg
+1168. disconnect_towbar
+1169. disconnect_tug
+1170. discrepancy_logbook
+1171. discuss_matter
+1172. discuss_option
+1173. discuss_possibility
+1174. discuss_situation
+1175. disengage_ap
+1176. disengage_autopilot
+1177. disengage_autoplt
+1178. disengage_autothrottles
+1179. displace_threshold
+1180. displaced_threshold
+1181. display_nd
+1182. display_pfd
+1183. disregard_safety
+1184. distance_measure
+1185. distance_measuring
+1186. diversion_guide
+1187. divert_alternate
+1188. divert_attention
+1189. divert_nearby
+1190. divert_zzz1
+1191. divert_zzz2
+1192. divert_zzz3
+1193. divide_attention
+1194. dogleg_final
+1195. door_1l
+1196. door_1r
+1197. door_2l
+1198. door_close
+1199. door_closure
+1200. door_disarm
+1201. door_frame
+1202. door_handle
+1203. door_lock
+1204. door_open
+1205. door_seal
+1206. dot_high
+1207. dot_low
+1208. double_check
+1209. doubt_mind
+1210. downwind_base
+1211. downwind_leg
+1212. drain_mast
+1213. draw_attention
+1214. drip_stick
+1215. drive_generator
+1216. drive_home
+1217. drive_pump
+1218. drllr_5
+1219. drop_zero
+1220. dry_ice
+1221. dscnt_10000
+1222. dscnt_chklist
+1223. dscnt_profile
+1224. dscnt_rate
+1225. dsnd_via
+1226. dual_fmc
+1227. duct_pressure
+1228. duct_warn
+1229. due_congestion
+1230. due_construction
+1231. due_covid
+1232. due_diligence
+1233. due_fact
+1234. due_lack
+1235. due_proximity
+1236. dump_fuel
+1237. duty_day
+1238. duty_manager
+1239. duty_mgr
+1240. duty_period
+1241. e/e_compartment
+1242. e_compartment
+1243. e_e
+1244. e_g
+1245. ear_pop
+1246. earlier_day
+1247. early_morning
+1248. east_bound
+1249. east_coast
+1250. east_side
+1251. east_west
+1252. easy_miss
+1253. eat_drink
+1254. ecam_action
+1255. ecam_electronic
+1256. ecam_message
+1257. ecam_screen
+1258. ecam_warning
+1259. edge_device
+1260. edge_flap
+1261. edge_light
+1262. edge_slat
+1263. edge_taxiway
+1264. eec_electronic
+1265. effective_date
+1266. efis_comp
+1267. egpws_alert
+1268. egpws_caution
+1269. egpws_terrain
+1270. egpws_warn
+1271. egpws_warning
+1272. eicas_caution
+1273. eicas_display
+1274. eicas_message
+1275. eicas_msg
+1276. eicas_screen
+1277. eicas_warn
+1278. eight_hour
+1279. el_paso
+1280. elac_2
+1281. elb_electronic
+1282. elec_gen
+1283. elect_continue
+1284. elect_discontinue
+1285. elect_divert
+1286. elect_return
+1287. electric_hydraulic
+1288. electric_pump
+1289. electric_trim
+1290. electrical_burning
+1291. electrical_connector
+1292. electrical_fire
+1293. electrical_odor
+1294. electrical_power
+1295. electrical_smell
+1296. electrical_smoke
+1297. electronic_bag
+1298. electronic_centralize
+1299. electronic_device
+1300. elevator_tab
+1301. eliminate_confusion
+1302. elmo_fire
+1303. emer_auth
+1304. emer_chklist
+1305. emer_declare
+1306. emer_dscnt
+1307. emer_equip
+1308. emer_vehicle
+1309. emergency_authority
+1310. emergency_declare
+1311. emergency_descent
+1312. emergency_equipment
+1313. emergency_evacuation
+1314. emergency_exit
+1315. emergency_personnel
+1316. emergency_room
+1317. emergency_vehicle
+1318. en_route
+1319. encounter_moderate
+1320. encounter_severe
+1321. encounter_turbulence
+1322. encounter_wake
+1323. end_shift
+1324. energy_state
+1325. engage_autopilot
+1326. engage_autoplt
+1327. engage_lnav
+1328. engage_vnav
+1329. engine_anti-ice
+1330. engine_bleed
+1331. engine_cowl
+1332. engine_cowling
+1333. engine_failure
+1334. engine_failure/shutdown
+1335. engine_fire/severe
+1336. engine_flameout
+1337. engine_idle
+1338. engine_inlet
+1339. engine_insts
+1340. engine_intake
+1341. engine_nacelle
+1342. engine_parameter
+1343. engine_pylon
+1344. engine_run
+1345. engine_run-up
+1346. engine_shut
+1347. engine_shutdown
+1348. engine_spool
+1349. engine_surge
+1350. engineering_auth
+1351. engineering_authorization
+1352. engineering_order
+1353. english_language
+1354. enhance_safety
+1355. enough_fuel
+1356. enough_room
+1357. enroute_chart
+1358. ensure_compliance
+1359. ensure_proper
+1360. ensure_separation
+1361. enter_cloud
+1362. enter_logbook
+1363. entertainment_system
+1364. entire_event
+1365. entry_door
+1366. entry_logbook
+1367. environmental_system
+1368. equipment_arc
+1369. equipment_bay
+1370. equipment_cool
+1371. equipment_list
+1372. equipment_malfunction
+1373. equipment_stand
+1374. equipment_standing
+1375. err_side
+1376. erroneous_indication
+1377. escape_maneuver
+1378. escape_slide
+1379. especially_night
+1380. especially_since
+1381. establish_communication
+1382. establish_coms
+1383. establish_final
+1384. establish_localizer
+1385. etops_airspace
+1386. etops_alternate
+1387. evacuation_checklist
+1388. evaluate_situation
+1389. evasive_action
+1390. evasive_maneuver
+1391. even_though
+1392. event_occur
+1393. every_day
+1394. every_single
+1395. everyone_else
+1396. everyone_involve
+1397. everyone_ok
+1398. everyone_okay
+1399. everything_else
+1400. everything_fine
+1401. everything_normal
+1402. everything_ok
+1403. everything_okay
+1404. evidence_fire
+1405. exact_location
+1406. exact_scenario
+1407. exceed_250
+1408. exceed_limit
+1409. exceed_limitation
+1410. excellent_job
+1411. except_maintain
+1412. excessive_heat
+1413. execute_gar
+1414. execute_go-around
+1415. execute_missed
+1416. exercise_authority
+1417. exhaust_gas
+1418. exit_row
+1419. exit_taxiway
+1420. expectation_bias
+1421. expedite_descent
+1422. expedite_dscnt
+1423. expedited_descent
+1424. expiration_date
+1425. explain_happen
+1426. explain_situation
+1427. express_concern
+1428. expressway_visual
+1429. extend_downwind
+1430. extend_flap
+1431. extend_gear
+1432. extended_centerline
+1433. extended_downwind
+1434. extended_period
+1435. extended_vector
+1436. extent_damage
+1437. exterior_inspection
+1438. exterior_light
+1439. external_power
+1440. extra_fuel
+1441. extra_vigilance
+1442. extra_vigilant
+1443. extreme_caution
+1444. extreme_precipitation
+1445. extremely_busy
+1446. extremely_dangerous
+1447. extremely_difficult
+1448. extremely_helpful
+1449. extremely_hot
+1450. extremely_unsafe
+1451. eye_burn
+1452. eye_throat
+1453. fa_attendant
+1454. fa_b
+1455. faa_approve
+1456. faa_inspector
+1457. faa_regulation
+1458. face_cover
+1459. face_mask
+1460. factor_contribute
+1461. fadec_fault
+1462. fail_recognize
+1463. fail_vectors
+1464. failure/shutdown_checklist
+1465. faint_odor
+1466. faint_smell
+1467. fairly_quickly
+1468. falcon_replay
+1469. fall_asleep
+1470. false_alarm
+1471. false_indication
+1472. false_sense
+1473. false_target
+1474. false_warning
+1475. fan_blade
+1476. fan_blades
+1477. fan_cowl
+1478. fantastic_job
+1479. far_117
+1480. far_121
+1481. far_away
+1482. far_enough
+1483. fas_attendant
+1484. fast_enough
+1485. fault_ecam
+1486. fault_isolation
+1487. fd_pro
+1488. feel_comfortable
+1489. feel_ill
+1490. feel_like
+1491. feel_nauseous
+1492. feel_rush
+1493. fell_asleep
+1494. fellow_mechanic
+1495. felt_comfortable
+1496. felt_confident
+1497. felt_dizzy
+1498. felt_fine
+1499. felt_like
+1500. felt_prudent
+1501. felt_shudder
+1502. felt_uncomfortable
+1503. female_passenger
+1504. ferry_permit
+1505. ferry_zzz1
+1506. field_condition
+1507. field_elevation
+1508. field_sight
+1509. fifteen_minute
+1510. fight_fire
+1511. fighter_jet
+1512. file_alternate
+1513. file_asap
+1514. file_destination
+1515. file_report
+1516. file_route
+1517. file_rpt
+1518. file_rte
+1519. fill_report
+1520. fill_smoke
+1521. filter_bypass
+1522. final_course
+1523. final_fix
+1524. final_segment
+1525. final_weight
+1526. final_wts
+1527. finally_able
+1528. finish_checklist
+1529. fir_boundary
+1530. fire_bell
+1531. fire_bottle
+1532. fire_chief
+1533. fire_department
+1534. fire_dept
+1535. fire_detection
+1536. fire_extinguish
+1537. fire_extinguisher
+1538. fire_fight
+1539. fire_fighter
+1540. fire_fighting
+1541. fire_handle
+1542. fire_hazard
+1543. fire_indication
+1544. fire_loop
+1545. fire_personnel
+1546. fire_rescue
+1547. fire_smoke
+1548. fire_suppression
+1549. fire_truck
+1550. fire_warning
+1551. firefighting_arff
+1552. fit_duty
+1553. five_mile
+1554. five_minute
+1555. fl_190
+1556. fl_200
+1557. fl_230
+1558. fl_240
+1559. fl_270
+1560. fl_280
+1561. fl_290
+1562. fl_340
+1563. fl_350
+1564. fl_360
+1565. fl_370
+1566. fl_380
+1567. flame_come
+1568. flammable_liquid
+1569. flap_15
+1570. flap_20
+1571. flap_22
+1572. flap_25
+1573. flap_30
+1574. flap_40
+1575. flap_45
+1576. flap_5
+1577. flap_asymmetry
+1578. flap_disagree
+1579. flap_extend
+1580. flap_extension
+1581. flap_handle
+1582. flap_indicator
+1583. flap_lever
+1584. flap_overspeed
+1585. flap_retract
+1586. flap_retraction
+1587. flap_setting
+1588. flap_slat
+1589. flap_transit
+1590. flaps_15
+1591. flaps_20
+1592. flaps_30
+1593. flaps_40
+1594. flaps_5
+1595. flaps_fail
+1596. flash_light
+1597. flat_tire
+1598. fleet_manager
+1599. fleet_type
+1600. flex_thrust
+1601. flm_front
+1602. flock_bird
+1603. fluid_leak
+1604. fluid_quantity
+1605. fly_partner
+1606. fly_public
+1607. fmc_database
+1608. fmc_program
+1609. focus_attention
+1610. follow_sop
+1611. following_day
+1612. following_info
+1613. following_information
+1614. following_morning
+1615. fom_guidance
+1616. foot_mean
+1617. foreign_carrier
+1618. foreign_country
+1619. foreign_object
+1620. formulate_plan
+1621. fort_worth
+1622. forward_aft
+1623. forward_cargo
+1624. forward_galley
+1625. forward_lavatory
+1626. forward_windshield
+1627. foul_odor
+1628. four_day
+1629. four_five
+1630. four_hour
+1631. free_text
+1632. freeze_fog
+1633. freeze_rain
+1634. freq_congestion
+1635. front_galley
+1636. front_u
+1637. frost_wing
+1638. fuel_balance
+1639. fuel_board
+1640. fuel_burn
+1641. fuel_cap
+1642. fuel_consumption
+1643. fuel_dump
+1644. fuel_dumping
+1645. fuel_feed
+1646. fuel_filter
+1647. fuel_flow
+1648. fuel_gauge
+1649. fuel_imbal
+1650. fuel_imbalance
+1651. fuel_jettison
+1652. fuel_leak
+1653. fuel_load
+1654. fuel_nozzle
+1655. fuel_pump
+1656. fuel_quantity
+1657. fuel_remaining
+1658. fuel_score
+1659. fuel_slip
+1660. fuel_spill
+1661. fuel_tank
+1662. fuel_totalizer
+1663. fuel_truck
+1664. full_cold
+1665. full_deflection
+1666. full_length
+1667. full_power
+1668. full_responsibility
+1669. full_reverse
+1670. full_scale
+1671. fully_aware
+1672. fully_configure
+1673. fully_extend
+1674. fully_functional
+1675. fully_open
+1676. fully_retract
+1677. fully_understand
+1678. fume_event
+1679. fume_odor
+1680. function_normally
+1681. function_properly
+1682. functional_check
+1683. functional_chk
+1684. functional_test
+1685. fuse_plug
+1686. fwd_cargo
+1687. gain_access
+1688. gain_loss
+1689. galley_cart
+1690. game_plan
+1691. gas_temperature
+1692. gate_agent
+1693. gate_xx
+1694. gate_xy
+1695. gather_information
+1696. gauge_read
+1697. gear_disagree
+1698. gear_disagreement
+1699. gear_door
+1700. gear_extend
+1701. gear_extension
+1702. gear_handle
+1703. gear_horn
+1704. gear_lever
+1705. gear_lock
+1706. gear_locked
+1707. gear_pin
+1708. gear_retract
+1709. gear_retraction
+1710. gear_strut
+1711. gen_1
+1712. gen_2
+1713. gen_drive
+1714. general_aviation
+1715. generator_drive
+1716. get_closer
+1717. get_rid
+1718. girt_bar
+1719. give_thumb
+1720. give_u
+1721. glare_shield
+1722. glide_path
+1723. glide_slope
+1724. glideslope_capture
+1725. glideslope_intercept
+1726. global_positioning
+1727. gnd_ctl
+1728. gnd_personnel
+1729. gnd_prox
+1730. go_around
+1731. go_arounds
+1732. go_away
+1733. go_blank
+1734. go_downstairs
+1735. go_home
+1736. go_hospital
+1737. go_smoothly
+1738. go_unanswered
+1739. go_unnoticed
+1740. gon_na
+1741. good_choice
+1742. good_communication
+1743. good_form
+1744. good_idea
+1745. good_job
+1746. good_judgment
+1747. good_option
+1748. good_spirit
+1749. good_summary
+1750. good_visibility
+1751. gradual_descent
+1752. grant_request
+1753. gravity_extension
+1754. great_deal
+1755. great_detail
+1756. great_job
+1757. greatly_reduce
+1758. green_arc
+1759. green_band
+1760. green_dot
+1761. green_hydraulic
+1762. green_laser
+1763. green_light
+1764. green_needle
+1765. green_range
+1766. gross_weight
+1767. gross_wt
+1768. ground_level
+1769. ground_personnel
+1770. ground_proximity
+1771. ground_school
+1772. guide_man
+1773. guide_person
+1774. gust_lock
+1775. gust_wind
+1776. gusting_wind
+1777. gusty_condition
+1778. gusty_crosswind
+1779. gusty_wind
+1780. gut_feeling
+1781. habit_pattern
+1782. half_hour
+1783. half_mile
+1784. half_way
+1785. halon_extinguisher
+1786. hand_flown
+1787. hand_fly
+1788. hand_offs
+1789. hand_signal
+1790. handbook_checklist
+1791. handbook_proc
+1792. handbook_procedure
+1793. handbook_procedures
+1794. handbook_procs
+1795. handling_request
+1796. hang_phone
+1797. happen_fast
+1798. happen_frequently
+1799. hard_copy
+1800. hard_stand
+1801. hard_tune
+1802. hazardous_material
+1803. head_display
+1804. headache_nausea
+1805. hear_bang
+1806. hear_loud
+1807. hear_noise
+1808. hear_transmission
+1809. heat_exchanger
+1810. heat_moment
+1811. heat_signature
+1812. heavy_jet
+1813. heavy_precipitation
+1814. heavy_rain
+1815. heavy_weight
+1816. height_touchdown
+1817. help_alleviate
+1818. help_mitigate
+1819. help_prevent
+1820. high-speed_taxiway
+1821. high_density
+1822. high_fast
+1823. high_profile
+1824. high_rate
+1825. high_speed
+1826. high_stage
+1827. high_terrain
+1828. high_volume
+1829. high_workload
+1830. highly_recommend
+1831. hind_sight
+1832. hit_bird
+1833. hit_head
+1834. hold-short_line
+1835. hold_accountable
+1836. hold_bar
+1837. hold_pad
+1838. hold_pattern
+1839. hold_short
+1840. holding_pattern
+1841. holdover_time
+1842. honest_mistake
+1843. hong_kong
+1844. hook_tug
+1845. horiz_stabilizer
+1846. horizontal_situation
+1847. horizontal_stabilizer
+1848. horn_sound
+1849. hot_brake
+1850. hot_mic
+1851. hot_spot
+1852. hotel_room
+1853. hour_half
+1854. hour_late
+1855. hour_later
+1856. hour_sleep
+1857. hover_board
+1858. hp_valve
+1859. hr_later
+1860. huge_safety
+1861. hull_loss
+1862. human_error
+1863. human_factor
+1864. hundred_foot
+1865. hvy_rain
+1866. hydraulic_fluid
+1867. hydraulic_g
+1868. hydraulic_leak
+1869. hydraulic_press
+1870. hydraulic_pressure
+1871. hydraulic_pump
+1872. hydraulic_qty
+1873. hydraulic_quantity
+1874. hydraulic_reservoir
+1875. hydraulic_sys
+1876. hydraulic_system
+1877. iaw_accordance
+1878. ice_accumulation
+1879. ice_buildup
+1880. ice_condition
+1881. ice_pellet
+1882. ice_protection
+1883. ice_snow
+1884. icing_condition
+1885. idg_integrate
+1886. idle_power
+1887. idle_reverse
+1888. idle_thrust
+1889. ill_effect
+1890. ill_passenger
+1891. illustrated_part
+1892. immediate_action
+1893. immediate_danger
+1894. immediate_descent
+1895. immediately_thereafter
+1896. in-trail_spacing
+1897. inboard_tire
+1898. inbound_course
+1899. inch_deep
+1900. inch_diameter
+1901. inch_wide
+1902. incident_occur
+1903. inclement_weather
+1904. increase_intensity
+1905. increase_rate
+1906. increase_risk
+1907. increase_thrust
+1908. increase_workload
+1909. indicate_airspeed
+1910. indicated_airspeed
+1911. indicating_alert
+1912. indicator_show
+1913. inertial_navigation
+1914. inertial_reference
+1915. inflight_supervisor
+1916. information_service
+1917. initial_check-in
+1918. initial_clb
+1919. initial_clbout
+1920. initial_climb
+1921. initial_climbout
+1922. initial_contact
+1923. initial_fix
+1924. initial_thought
+1925. initiate_descent
+1926. initiate_gar
+1927. initiate_go-around
+1928. injured_attendant
+1929. injury_damage
+1930. inner_tank
+1931. inop_sticker
+1932. inside_marker
+1933. inspect_exterior
+1934. inspection_reveal
+1935. instal_incorrectly
+1936. instrument_departure
+1937. instrument_land
+1938. instrument_landing
+1939. instrument_meteorological
+1940. instrument_panel
+1941. instrument_rule
+1942. insufficient_fuel
+1943. intention_divert
+1944. intention_return
+1945. inter_phone
+1946. intercept_angle
+1947. intercept_course
+1948. intercept_final
+1949. intercept_glide
+1950. intercept_glideslope
+1951. intercept_localizer
+1952. intercept_radial
+1953. interest_safety
+1954. international_destination
+1955. international_relief
+1956. investigation_reveal
+1957. ion_battery
+1958. ipad_mount
+1959. iro_international
+1960. irregular_operation
+1961. irregular_proc
+1962. irregular_procedure
+1963. irs_fault
+1964. isolated_incident
+1965. isolation_manual
+1966. isolation_valve
+1967. issue_brasher
+1968. iv_fluid
+1969. jack_pad
+1970. jeopardize_safety
+1971. jepp_chart
+1972. jeppesen_chart
+1973. jet_blast
+1974. jet_bridge
+1975. jet_way
+1976. jettison_fuel
+1977. jetway_driver
+1978. job_card
+1979. join_final
+1980. join_localizer
+1981. jump_seat
+1982. jump_seater
+1983. jump_zone
+1984. jumpseat_rider
+1985. kansas_city
+1986. keep_eye
+1987. keep_loop
+1988. keep_mind
+1989. key_mic
+1990. key_mike
+1991. kick_autopilot
+1992. knot_indicate
+1993. knot_tailwind
+1994. know_exactly
+1995. known_issue
+1996. kt_gusting
+1997. kt_tailwind
+1998. l1_door
+1999. l2_door
+2000. l_engine
+2001. l_gen
+2002. l_pack
+2003. l_r
+2004. l_side
+2005. l_wing
+2006. la_vega
+2007. lack_awareness
+2008. lack_communication
+2009. lack_familiarity
+2010. lack_knowledge
+2011. lack_understanding
+2012. land_asap
+2013. land_overweight
+2014. land_overwt
+2015. land_rollout
+2016. land_safely
+2017. land_system
+2018. land_uneventfully
+2019. land_weight
+2020. landing_data
+2021. landing_distance
+2022. landing_flare
+2023. landing_gear
+2024. landing_rollout
+2025. landing_system
+2026. landing_uneventful
+2027. landing_weight
+2028. language_barrier
+2029. lap_child
+2030. large_amount
+2031. large_bird
+2032. large_cell
+2033. large_transport
+2034. last_assigned
+2035. last_leg
+2036. last_min
+2037. last_minute
+2038. last_month
+2039. last_night
+2040. last_row
+2041. last_week
+2042. last_year
+2043. late_afternoon
+2044. late_arriving
+2045. late_evening
+2046. late_night
+2047. later_learn
+2048. lateral_deviation
+2049. lateral_mode
+2050. lateral_navigation
+2051. lateral_offset
+2052. lateral_separation
+2053. lateral_vertical
+2054. lav_smoke
+2055. lavatory_smoke
+2056. law_enforcement
+2057. layer_cloud
+2058. layover_hotel
+2059. lb_fuel
+2060. lcl_ctl
+2061. le_device
+2062. le_flap
+2063. le_slat
+2064. lead-in_line
+2065. lead_confusion
+2066. lead_edge
+2067. lead_mech
+2068. lead_mechanic
+2069. lead_technician
+2070. leading_edge
+2071. leak_chk
+2072. learn_lesson
+2073. learn_valuable
+2074. learning_experience
+2075. least_twice
+2076. leave_alone
+2077. left_downwind
+2078. left_engine
+2079. left_main
+2080. left_pack
+2081. left_side
+2082. left_tank
+2083. left_wing
+2084. leg_day
+2085. legs_page
+2086. lengthy_delay
+2087. lengthy_discussion
+2088. lens_cover
+2089. less_100
+2090. less_ideal
+2091. lesson_learn
+2092. let_alone
+2093. let_know
+2094. letter_agreement
+2095. level_fl310
+2096. level_fl350
+2097. level_fl360
+2098. level_fl370
+2099. level_offs
+2100. lever_idle
+2101. lgciu_2
+2102. life_vest
+2103. light_bulb
+2104. light_chop
+2105. light_extinguish
+2106. light_flash
+2107. light_flicker
+2108. light_illuminate
+2109. light_moderate
+2110. light_rain
+2111. light_twin
+2112. lighted_wand
+2113. lightning_strike
+2114. likely_cause
+2115. limit_exceed
+2116. limitation_exceed
+2117. limited_data
+2118. limited_visibility
+2119. line_defense
+2120. line_manager
+2121. line_thunderstorm
+2122. line_wait
+2123. lineup_wait
+2124. list_book
+2125. list_card
+2126. listen_tape
+2127. lithium-ion_battery
+2128. lithium_battery
+2129. lithium_ion
+2130. little_bit
+2131. little_confused
+2132. little_room
+2133. live_animal
+2134. lnav/vnav_path
+2135. lnav_engage
+2136. lnav_select
+2137. lnav_vnav
+2138. lndg_chklist
+2139. lndg_gear
+2140. lndg_rollout
+2141. lndg_uneventful
+2142. lndg_wt
+2143. lo_lvl
+2144. lo_pr
+2145. lo_press
+2146. lo_qty
+2147. load_closeout
+2148. load_fmc
+2149. load_manifest
+2150. load_master
+2151. load_planner
+2152. load_planning
+2153. load_shed
+2154. load_sheet
+2155. loading_schedule
+2156. local_assist
+2157. local_controller
+2158. local_east
+2159. local_hospital
+2160. local_west
+2161. localizer/glide_slope
+2162. localizer_27
+2163. localizer_capture
+2164. localizer_course
+2165. localizer_glide
+2166. localizer_glideslope
+2167. localizer_intercept
+2168. localizer_signal
+2169. locate_source
+2170. lock_mechanism
+2171. lock_pin
+2172. locked_indication
+2173. locked_position
+2174. lockout_pin
+2175. log_book
+2176. log_entry
+2177. log_history
+2178. log_item
+2179. log_page
+2180. logbook_deferral
+2181. logbook_entry
+2182. logbook_write-up
+2183. long_day
+2184. long_enough
+2185. long_term
+2186. look_like
+2187. look_outside
+2188. los_angeles
+2189. lose_separation
+2190. lose_sight
+2191. loss_life
+2192. loss_pressurization
+2193. loss_separation
+2194. lot_confusion
+2195. loud_bang
+2196. loud_banging
+2197. loud_enough
+2198. loud_noise
+2199. loud_pop
+2200. loud_squeal
+2201. low_alert
+2202. low_alt
+2203. low_ceiling
+2204. low_oil
+2205. low_pressure
+2206. low_visibility
+2207. lower_gear
+2208. lower_nose
+2209. lvl_chg
+2210. mach_number
+2211. mach_trim
+2212. magenta_line
+2213. magnetic_compass
+2214. magnetic_variation
+2215. main_cabin
+2216. main_cargo
+2217. main_concern
+2218. main_deck
+2219. main_gear
+2220. main_landing
+2221. main_tank
+2222. main_tire
+2223. main_wheel
+2224. maint_ctl
+2225. maint_history
+2226. maint_log
+2227. maint_manual
+2228. maint_personnel
+2229. maint_supvr
+2230. maintain_170
+2231. maintain_250
+2232. maintain_4000
+2233. maintain_directional
+2234. maintain_visual
+2235. maintenance_department
+2236. maintenance_log
+2237. maintenance_personnel
+2238. maintenance_technician
+2239. major_factor
+2240. make_announcement
+2241. make_arrangement
+2242. make_aware
+2243. make_comment
+2244. make_decision
+2245. make_determination
+2246. make_difficult
+2247. make_mistake
+2248. make_pa
+2249. make_sense
+2250. make_sure
+2251. male_passenger
+2252. manage_descent
+2253. manage_speed
+2254. managed_descent
+2255. management_computer
+2256. management_system
+2257. management_unit
+2258. manager_duty
+2259. manager_flm
+2260. maneuver_speed
+2261. manual_amm
+2262. manual_braking
+2263. manual_extension
+2264. manual_m/m
+2265. manual_mode
+2266. manual_pressurization
+2267. manual_trim
+2268. manually_deploy
+2269. manually_enter
+2270. manually_extend
+2271. many_people
+2272. many_year
+2273. map_display
+2274. map_shift
+2275. margin_error
+2276. margin_safety
+2277. marginal_weather
+2278. marshaller_signal
+2279. mask_deploy
+2280. mask_establish
+2281. mask_policy
+2282. master_caution
+2283. master_switch
+2284. master_warn
+2285. master_warning
+2286. matter_expert
+2287. max_land
+2288. max_power
+2289. max_reverse
+2290. max_structural
+2291. max_thrust
+2292. maximum_landing
+2293. may_contribute
+2294. may_inadvertently
+2295. mcp_alt
+2296. mcp_mode
+2297. mcp_window
+2298. meal_service
+2299. mean_aerodynamic
+2300. mean_sea
+2301. measure_equipment
+2302. measuring_equipment
+2303. mechanical_discrepancy
+2304. mechanical_failure
+2305. mechanical_issue
+2306. mechanical_malfunction
+2307. mechanical_problem
+2308. medical_assistance
+2309. medical_attention
+2310. medical_emer
+2311. medical_emergency
+2312. medical_kit
+2313. medical_personnel
+2314. medical_professional
+2315. medical_service
+2316. meet_criterion
+2317. meet_requirement
+2318. meet_restriction
+2319. memory_aid
+2320. memory_item
+2321. men_equipment
+2322. mental_math
+2323. mental_model
+2324. mental_note
+2325. mention_anything
+2326. message_disappear
+2327. message_eicas
+2328. message_extinguish
+2329. metallic_taste
+2330. meteorological_condition
+2331. mexico_city
+2332. mi_apart
+2333. mi_away
+2334. mi_e
+2335. mi_final
+2336. mi_n
+2337. mi_w
+2338. microburst_alert
+2339. mid-air_collision
+2340. mid_cabin
+2341. mid_collision
+2342. mid_galley
+2343. mid_shift
+2344. midair_collision
+2345. middle_marker
+2346. middle_night
+2347. midnight_shift
+2348. mile_ahead
+2349. mile_apart
+2350. mile_away
+2351. mile_behind
+2352. mile_east
+2353. mile_final
+2354. mile_north
+2355. mile_northeast
+2356. mile_northwest
+2357. mile_outside
+2358. mile_south
+2359. mile_southeast
+2360. mile_trail
+2361. mile_visibility
+2362. mile_west
+2363. military_airspace
+2364. military_operation
+2365. min_fuel
+2366. min_later
+2367. minimum_descent
+2368. minimum_enroute
+2369. minimum_equipment
+2370. minimum_fuel
+2371. minimum_safe
+2372. minimum_vectoring
+2373. minor_deviation
+2374. minute_late
+2375. minute_later
+2376. miss_fastener
+2377. mitigate_risk
+2378. mitigate_threat
+2379. mobility_device
+2380. mode_annunciator
+2381. mode_c
+2382. mode_panel
+2383. mode_select
+2384. mode_selector
+2385. moderate_chop
+2386. moderate_icing
+2387. moderate_rain
+2388. moderate_severe
+2389. moderate_turb
+2390. moderate_turbulence
+2391. moment_later
+2392. monitor_pm
+2393. monitor_vertical
+2394. monitoring_pm
+2395. month_ago
+2396. morse_code
+2397. mountain_wave
+2398. mountainous_terrain
+2399. move_backwards
+2400. move_forward
+2401. move_map
+2402. movement_area
+2403. mr_x
+2404. mr_z
+2405. mu_reading
+2406. much_bad
+2407. much_easy
+2408. much_sooner
+2409. multi-function_display
+2410. muscle_memory
+2411. n/w_strg
+2412. n1_gauge
+2413. n1_n2
+2414. n1_vibration
+2415. n2_rotation
+2416. national_airspace
+2417. nature_emergency
+2418. navigate_communicate
+2419. navigation_accuracy
+2420. navigation_capability
+2421. navigation_data
+2422. navigation_database
+2423. navigation_display
+2424. navigation_mode
+2425. navigation_performance
+2426. navigational_aid
+2427. navigational_display
+2428. near_collision
+2429. near_midair
+2430. near_miss
+2431. near_suitable
+2432. nearby_alternate
+2433. nearest_suitable
+2434. nearly_impossible
+2435. need_address
+2436. need_assistance
+2437. needless_say
+2438. neither_nor
+2439. neither_u
+2440. neutral_position
+2441. never_exceed
+2442. new_hire
+2443. new_york
+2444. next_day
+2445. next_fix
+2446. next_leg
+2447. next_morning
+2448. next_sector
+2449. next_step
+2450. next_waypoint
+2451. nice_job
+2452. night_sleep
+2453. night_vision
+2454. night_vmc
+2455. nm_away
+2456. nm_north
+2457. nm_west
+2458. no-go_item
+2459. no_abnormality
+2460. no_adverse
+2461. no_avail
+2462. no_doubt
+2463. no_evidence
+2464. no_excuse
+2465. no_idea
+2466. no_injury
+2467. no_longer
+2468. no_luck
+2469. no_probs
+2470. no_response
+2471. no_success
+2472. noise_abatement
+2473. noise_vibration
+2474. non-movement_area
+2475. non-normal_checklist
+2476. non-normal_procedure
+2477. non-radar_environment
+2478. non-routine_card
+2479. non-routine_landing
+2480. non-standard_phraseology
+2481. non_directional
+2482. non_normal
+2483. non_rev
+2484. non_routine
+2485. non_standard
+2486. normal_landing
+2487. normal_range
+2488. north_atlantic
+2489. north_complex
+2490. north_side
+2491. north_south
+2492. northeast_bound
+2493. northwest_bound
+2494. nose_attitude
+2495. nose_cone
+2496. nose_cowl
+2497. nose_gear
+2498. nose_mouth
+2499. nose_pitch
+2500. nose_strut
+2501. nose_tire
+2502. nose_trim
+2503. nose_wheel
+2504. nosewheel_steer
+2505. nosewheel_steering
+2506. not_sure
+2507. not_uncommon
+2508. nothing_abnormal
+2509. nothing_else
+2510. nothing_ordinary
+2511. nothing_unusual
+2512. nothing_wrong
+2513. notice_airman
+2514. notice_airmen
+2515. notification_form
+2516. notified_dispatch
+2517. notified_maintenance
+2518. nowhere_near
+2519. number_1
+2520. number_2
+2521. number_one
+2522. number_two
+2523. numerous_occasion
+2524. nut_plate
+2525. o2_bottle
+2526. o2_mask
+2527. object_debris
+2528. observer_seat
+2529. occasional_moderate
+2530. oceanic_airspace
+2531. odor_detect
+2532. odor_dissipate
+2533. oil_cap
+2534. oil_consumption
+2535. oil_filter
+2536. oil_leak
+2537. oil_press
+2538. oil_pressure
+2539. oil_qty
+2540. oil_quantity
+2541. oil_service
+2542. oil_temp
+2543. oil_temperature
+2544. old_model
+2545. on-time_departure
+2546. one_dot
+2547. one_else
+2548. one_hurt
+2549. one_injure
+2550. ongoing_issue
+2551. ongoing_problem
+2552. onto_taxiway
+2553. onto_txwy
+2554. open_door
+2555. open_window
+2556. operate_normally
+2557. operation_agent
+2558. operation_manager
+2559. operation_manual
+2560. operational_check
+2561. operational_error
+2562. operational_test
+2563. opposite_direction
+2564. opposite_side
+2565. ops_agent
+2566. ops_chk
+2567. ops_chks
+2568. ops_mgr
+2569. ops_spec
+2570. ops_specs
+2571. order_avoid
+2572. order_prevent
+2573. original_destination
+2574. original_route
+2575. originally_file
+2576. originally_plan
+2577. originally_schedule
+2578. otherwise_uneventful
+2579. outbound_leg
+2580. outer_marker
+2581. outer_pane
+2582. outer_tank
+2583. outflow_valve
+2584. outside_marker
+2585. outside_temperature
+2586. outstanding_job
+2587. overcast_layer
+2588. overhead_bin
+2589. overhead_panel
+2590. overheat_light
+2591. overshoot_final
+2592. overshoot_localizer
+2593. overspeed_warning
+2594. overweight_land
+2595. overweight_landing
+2596. overwing_exit
+2597. overwing_slide
+2598. overwt_lndg
+2599. oxygen_bottle
+2600. oxygen_generator
+2601. oxygen_mask
+2602. oxygen_pressure
+2603. pa_announcement
+2604. pa_passenger
+2605. pack_hi
+2606. pan_pan
+2607. paper_chart
+2608. paper_towel
+2609. paper_work
+2610. parachute_jump
+2611. parallel_taxiway
+2612. paramedic_meet
+2613. park_brake
+2614. park_gate
+2615. park_spot
+2616. parking_brake
+2617. parking_checklist
+2618. parking_spot
+2619. part_121
+2620. part_catalog
+2621. part_compatibility
+2622. part_number
+2623. part_tag
+2624. partially_block
+2625. partially_open
+2626. party_involve
+2627. pass_behind
+2628. pass_fl180
+2629. passenger_board
+2630. passenger_comfort
+2631. passenger_complain
+2632. passenger_count
+2633. passenger_deplane
+2634. passenger_disembark
+2635. passenger_injure
+2636. past_month
+2637. past_week
+2638. patch_dispatch
+2639. patch_maintenance
+2640. path_angle
+2641. path_indicator
+2642. paved_surface
+2643. pay_attention
+2644. pay_attn
+2645. pay_close
+2646. per_amm
+2647. per_aom
+2648. per_fom
+2649. per_loa
+2650. per_minute
+2651. per_quick
+2652. per_sop
+2653. percent_n1
+2654. perf_init
+2655. perform_duty
+2656. perform_task
+2657. performance_calculation
+2658. performance_computer
+2659. performance_data
+2660. performance_number
+2661. performance_penalty
+2662. performance_z
+2663. period_time
+2664. peripheral_vision
+2665. permanent_repair
+2666. person_b
+2667. personnel_inspect
+2668. pertinent_information
+2669. pf_fly
+2670. pf_pm
+2671. pf_pnf
+2672. pfd_nd
+2673. pfd_primary
+2674. phone_call
+2675. phone_conversation
+2676. phone_number
+2677. phone_patch
+2678. pic_command
+2679. pickup_truck
+2680. piece_metal
+2681. piece_paper
+2682. pin_instal
+2683. pit_4
+2684. pit_6
+2685. pitch_attitude
+2686. pitch_mode
+2687. pitch_nose
+2688. pitch_trim
+2689. pitot_cover
+2690. pitot_heat
+2691. pitot_probe
+2692. pitot_static
+2693. pitot_tube
+2694. placard_inop
+2695. placard_inoperative
+2696. planned_destination
+2697. planning_software
+2698. plastic_bag
+2699. plastic_smell
+2700. play_part
+2701. play_role
+2702. please_note
+2703. plenty_fuel
+2704. plenty_room
+2705. plenty_time
+2706. plt_monitoring
+2707. plug_headset
+2708. plus_minus
+2709. pm_monitor
+2710. pm_monitoring
+2711. po_hold
+2712. policy_procedure
+2713. pom_vor
+2714. poor_communication
+2715. poor_decision
+2716. poor_quality
+2717. poor_visibility
+2718. poorly_design
+2719. poorly_lit
+2720. poorly_write
+2721. port_authority
+2722. portable_oxygen
+2723. position_relative
+2724. positioning_system
+2725. positive_outcome
+2726. positive_rate
+2727. positive_separation
+2728. positively_identify
+2729. possible_deviation
+2730. possible_solution
+2731. post-flight_inspection
+2732. post_inspection
+2733. post_walk
+2734. postflt_inspection
+2735. potable_water
+2736. potential_collision
+2737. potential_conflict
+2738. potential_hazard
+2739. potential_threat
+2740. potentially_dangerous
+2741. pound_fuel
+2742. power_cord
+2743. power_lever
+2744. power_port
+2745. power_reduction
+2746. power_setting
+2747. power_unit
+2748. pratt_whitney
+2749. pre-departure_clearance
+2750. pre-flight_duty
+2751. pre_departure
+2752. precautionary_landing
+2753. precautionary_lndg
+2754. precautionary_measure
+2755. precautionary_shutdown
+2756. precision_monitor
+2757. precision_path
+2758. predictive_windshear
+2759. preflight_duty
+2760. preflight_inspection
+2761. preflight_planning
+2762. preflight_preparation
+2763. preflt_duty
+2764. preflt_walkaround
+2765. prepare_cabin
+2766. prepared_surface
+2767. pressure_differential
+2768. pressure_drop
+2769. pressure_gauge
+2770. pressure_ratio
+2771. pressure_yoke
+2772. pressurization_panel
+2773. pressurize_normally
+2774. pretty_good
+2775. pretty_much
+2776. pretty_sure
+2777. prevent_future
+2778. prevent_happen
+2779. prevent_occurrence
+2780. prevent_recurrence
+2781. preventative_measure
+2782. preventive_measure
+2783. previous_day
+2784. previous_evening
+2785. previous_leg
+2786. previous_night
+2787. previous_shift
+2788. previous_write-up
+2789. previous_write-ups
+2790. previously_mention
+2791. primary_display
+2792. primary_target
+2793. prior_pushback
+2794. prior_reach
+2795. priority_handle
+2796. priority_handling
+2797. probable_cause
+2798. probe_heat
+2799. problem_solve
+2800. procedure_outline
+2801. proceed_direct
+2802. proceed_normally
+2803. proceed_uneventfully
+2804. prog_page
+2805. program_fmc
+2806. program_management
+2807. progress_page
+2808. progress_strip
+2809. prop_blade
+2810. proper_phraseology
+2811. properly_configure
+2812. properly_secure
+2813. properly_train
+2814. protected_area
+2815. provide_adequate
+2816. proximity_warn
+2817. public_address
+2818. publish_miss
+2819. publish_missed
+2820. pull_cb
+2821. pull_circuit
+2822. pull_collar
+2823. pull_forward
+2824. push_back
+2825. push_button
+2826. push_throttle
+2827. pushback_driver
+2828. pushback_tractor
+2829. put_mask
+2830. qrc/quick_reference
+2831. qrc_quick
+2832. quality_assurance
+2833. quality_ctl
+2834. quantity_decrease
+2835. quantity_gauge
+2836. quantity_indicator
+2837. quart_oil
+2838. quarter_tailwind
+2839. quartering_tailwind
+2840. query_whether
+2841. question_whether
+2842. quick_disconnect
+2843. quick_glance
+2844. quick_reference
+2845. quick_scan
+2846. quickly_possible
+2847. quite_bit
+2848. quite_busy
+2849. quite_often
+2850. r1_door
+2851. r_engine
+2852. r_pack
+2853. r_side
+2854. r_wing
+2855. ra_command
+2856. ra_maneuver
+2857. radio_altimeter
+2858. radio_beacon
+2859. radio_chatter
+2860. radio_communication
+2861. radio_congestion
+2862. radio_transmission
+2863. rain_shower
+2864. raise_flap
+2865. raise_gear
+2866. raise_nose
+2867. ram_mount
+2868. ramp_agent
+2869. ramp_employee
+2870. ramp_personnel
+2871. ramp_supervisor
+2872. ramp_worker
+2873. rapid_decompression
+2874. rapid_depressurization
+2875. rapid_descent
+2876. rapid_rate
+2877. rapid_succession
+2878. rapidly_decrease
+2879. rapidly_increase
+2880. rate_clb
+2881. rate_climb
+2882. rate_descent
+2883. rate_dscnt
+2884. rate_speed
+2885. raw_data
+2886. re-engaged_autopilot
+2887. reach_cruise
+2888. read_back
+2889. read_zero
+2890. readily_available
+2891. ready_push
+2892. ready_pushback
+2893. real_world
+2894. realize_error
+2895. realize_mistake
+2896. really_bad
+2897. rear_galley
+2898. recall_exact
+2899. receive_ra
+2900. receive_ta
+2901. recency_experience
+2902. recent_history
+2903. recirc_fan
+2904. recirculating_fan
+2905. recirculation_fan
+2906. recognize_error
+2907. recovery_maneuver
+2908. rectify_situation
+2909. recur_problem
+2910. recurrence_event
+2911. recurrent_training
+2912. recycle_gear
+2913. red_band
+2914. red_box
+2915. red_eye
+2916. red_flag
+2917. red_light
+2918. reduce_power
+2919. reduce_speed
+2920. reduce_thrust
+2921. reduce_workload
+2922. reduced_power
+2923. reduced_rest
+2924. reduced_thrust
+2925. reduced_visibility
+2926. reengaged_autopilot
+2927. ref_speed
+2928. reference_handbook
+2929. regain_ctl
+2930. regional_jet
+2931. regular_basis
+2932. reject_take-off
+2933. reject_takeoff
+2934. rejoin_arrival
+2935. relatively_new
+2936. relatively_short
+2937. relay_info
+2938. relay_information
+2939. release_brake
+2940. relief_briefing
+2941. relief_plt
+2942. relieve_controller
+2943. remain_calm
+2944. remain_engaged
+2945. remain_illuminated
+2946. remain_seat
+2947. remain_seated
+2948. remain_vigilant
+2949. remainder_uneventful
+2950. remark_section
+2951. remedy_situation
+2952. remember_correctly
+2953. remember_exact
+2954. remote_pad
+2955. remote_parking
+2956. removal_installation
+2957. removal_replacement
+2958. remove_mask
+2959. remove_replace
+2960. remove_service
+2961. repeat_instruction
+2962. reply_affirmative
+2963. reply_negative
+2964. reply_roger
+2965. reply_yes
+2966. report_submit
+2967. reporter_also
+2968. reporter_state
+2969. reprogrammed_fmc
+2970. request_assistance
+2971. request_cfr
+2972. request_grant
+2973. request_immediate
+2974. request_priority
+2975. request_vector
+2976. require_navigation
+2977. required_navigation
+2978. rescue_cfr
+2979. rescue_fire
+2980. rescue_firefighting
+2981. rescue_vehicle
+2982. reserve_fuel
+2983. reset_altimeter
+2984. reset_breaker
+2985. reset_circuit
+2986. reset_mcp
+2987. resolution_advisory
+2988. resolve_conflict
+2989. resource_management
+2990. respond_affirmative
+2991. respond_negative
+2992. respond_ra
+2993. respond_roger
+2994. respond_yes
+2995. rest_break
+2996. rest_period
+2997. rest_uneventful
+2998. restrict_area
+2999. restricted_airspace
+3000. restricted_area
+3001. restricted_article
+3002. restroom_break
+3003. result_loss
+3004. resume_normal
+3005. retard_idle
+3006. retard_throttle
+3007. retard_thrust
+3008. retract_flap
+3009. retract_gear
+3010. retract_spoiler
+3011. return_field
+3012. return_gate
+3013. return_service
+3014. return_svc
+3015. reveal_following
+3016. revenue_service
+3017. reverse_thrust
+3018. reverser_fault
+3019. review_logbook
+3020. review_notams
+3021. review_paperwork
+3022. review_tape
+3023. revise_segment
+3024. revised_clearance
+3025. ride_smooth
+3026. ridge_line
+3027. rig_pin
+3028. right_away
+3029. right_downwind
+3030. right_side
+3031. right_wing
+3032. rii_inspection
+3033. rii_item
+3034. rime_ice
+3035. rise_rapidly
+3036. rise_terrain
+3037. river_visual
+3038. rnav_arrival
+3039. rnav_departure
+3040. rnav_deps
+3041. rnav_global
+3042. rnav_sids
+3043. rnav_standard
+3044. rnav_star
+3045. rnav_xx
+3046. rnav_z
+3047. road_trip
+3048. rod_end
+3049. roll_backwards
+3050. roll_forward
+3051. root_cause
+3052. rough_ride
+3053. round_trip
+3054. route_discontinuity
+3055. routine_overnight
+3056. routine_weather
+3057. rptr_acn
+3058. rptr_indicate
+3059. rptr_state
+3060. rsvr_lo
+3061. rubber_smell
+3062. rudder_input
+3063. rudder_pedal
+3064. rudder_ratio
+3065. rudder_sys
+3066. rudder_travel
+3067. rudder_trim
+3068. run_appropriate
+3069. run_checklist
+3070. run_chklist
+3071. run_chklists
+3072. run_qrc
+3073. run_quick
+3074. rvsm_airspace
+3075. safe_course
+3076. safe_efficient
+3077. safe_landing
+3078. safe_manner
+3079. safe_option
+3080. safe_outcome
+3081. safety_compromise
+3082. safety_concern
+3083. safety_culture
+3084. safety_demo
+3085. safety_demonstration
+3086. safety_department
+3087. safety_hazard
+3088. safety_implication
+3089. safety_issue
+3090. safety_margin
+3091. safety_pin
+3092. safety_risk
+3093. safety_video
+3094. safety_wire
+3095. safety_zone
+3096. salt_lake
+3097. salute_release
+3098. san_diego
+3099. san_francisco
+3100. san_jose
+3101. san_juan
+3102. san_mateo
+3103. sat_phone
+3104. satellite_phone
+3105. save_fuel
+3106. save_money
+3107. say_anything
+3108. say_goodbye
+3109. say_hey
+3110. say_oh
+3111. say_roger
+3112. say_yes
+3113. scale_deflection
+3114. scan_instrument
+3115. scattered_cloud
+3116. scheduled_departure
+3117. scratch_pad
+3118. sea_level
+3119. seat_belt
+3120. seat_cushion
+3121. seat_row
+3122. seatbelt_fasten
+3123. seatbelt_sign
+3124. seavu_arrival
+3125. second_later
+3126. second_leg
+3127. secondary_plan
+3128. sector_39
+3129. sector_42
+3130. sector_46
+3131. sector_combine
+3132. see_anything
+3133. seek_medical
+3134. seem_concerned
+3135. seem_confused
+3136. seem_dissipate
+3137. seem_like
+3138. seem_odd
+3139. seem_reasonable
+3140. select_lnav
+3141. select_mode
+3142. select_toga
+3143. select_vnav
+3144. send_acars
+3145. send_around
+3146. send_email
+3147. send_message
+3148. sense_security
+3149. sense_urgency
+3150. separation_lose
+3151. separation_standard
+3152. serial_number
+3153. serious_consequence
+3154. serious_injury
+3155. serious_safety
+3156. service_bulletin
+3157. service_representative
+3158. service_road
+3159. serviceable_tag
+3160. set_brake
+3161. set_eye
+3162. set_mcp
+3163. set_park
+3164. set_parking
+3165. several_hundred
+3166. several_min
+3167. several_minute
+3168. several_month
+3169. several_occasion
+3170. severe_damage
+3171. severe_thunderstorm
+3172. severe_turb
+3173. severe_turbulence
+3174. severe_weather
+3175. shake_head
+3176. shaker_activate
+3177. shaker_activation
+3178. shallow_climb
+3179. shallow_descent
+3180. shear_pin
+3181. sheet_metal
+3182. shift_manager
+3183. shift_turnover
+3184. shock_absorber
+3185. short_amount
+3186. short_cut
+3187. short_distance
+3188. short_duration
+3189. short_final
+3190. short_line
+3191. short_period
+3192. short_staffed
+3193. short_term
+3194. shortly_afterward
+3195. shortly_afterwards
+3196. shortly_takeoff
+3197. shortly_thereafter
+3198. shoulder_harness
+3199. shout_line
+3200. shut-off_valve
+3201. shut_engine
+3202. shut_engs
+3203. shutdown_checklist
+3204. shutoff_valve
+3205. side_stick
+3206. side_window
+3207. sids_star
+3208. sign_logbook
+3209. significant_amount
+3210. similar_sound
+3211. similar_sounding
+3212. simulator_training
+3213. single_chime
+3214. single_engine
+3215. single_generator
+3216. single_pack
+3217. sink_rate
+3218. sit_jumpseat
+3219. sit_seat
+3220. situational_awareness
+3221. situationally_aware
+3222. six_mile
+3223. skin_valve
+3224. slam_brake
+3225. slam_dunk
+3226. slat_asymmetry
+3227. slat_disag
+3228. slat_extend
+3229. slat_fail
+3230. slat_retract
+3231. sleep_cycle
+3232. slide_deploy
+3233. slide_deployment
+3234. slide_pack
+3235. slight_headache
+3236. slight_vibration
+3237. slight_yaw
+3238. slightly_behind
+3239. slightly_high
+3240. slope_capture
+3241. slope_intercept
+3242. slow_170
+3243. slow_210
+3244. slow_250
+3245. slow_configure
+3246. slowly_decrease
+3247. sm_visibility
+3248. small_amount
+3249. small_print
+3250. smell_anything
+3251. smell_burn
+3252. smell_dirty
+3253. smell_dissipate
+3254. smell_electrical
+3255. smell_faint
+3256. smell_fume
+3257. smell_like
+3258. smell_odor
+3259. smell_smoke
+3260. smell_something
+3261. smell_strong
+3262. smoke_alarm
+3263. smoke_cabin
+3264. smoke_come
+3265. smoke_detector
+3266. smoke_dissipate
+3267. smoke_fire
+3268. smoke_flame
+3269. smoke_fume
+3270. smoke_goggles
+3271. smoke_toilet
+3272. smooth_ride
+3273. smooth_touchdown
+3274. smooth_uneventful
+3275. snow_cover
+3276. snow_fall
+3277. snow_ice
+3278. snow_plow
+3279. snow_removal
+3280. snow_storm
+3281. social_distancing
+3282. sock_odor
+3283. sock_smell
+3284. soft_touchdown
+3285. solve_problem
+3286. someone_else
+3287. something_effect
+3288. something_else
+3289. something_like
+3290. something_similar
+3291. something_wrong
+3292. sometime_later
+3293. somewhere_around
+3294. somewhere_else
+3295. soon_possible
+3296. soon_thereafter
+3297. sore_throat
+3298. soul_board
+3299. sound_like
+3300. source_odor
+3301. source_smoke
+3302. south_america
+3303. south_bound
+3304. south_complex
+3305. south_side
+3306. southeast_bound
+3307. southwest_bound
+3308. spar_valve
+3309. speak_chief
+3310. speak_english
+3311. speak_supervisor
+3312. special_procedure
+3313. specifically_state
+3314. speed_brake
+3315. speed_bug
+3316. speed_intervene
+3317. speed_intervention
+3318. speed_reduction
+3319. speed_regime
+3320. speed_restr
+3321. speed_restriction
+3322. speed_tape
+3323. split_second
+3324. split_sector
+3325. spoiler_deploy
+3326. spoiler_deployment
+3327. spoiler_fault
+3328. spot_xx
+3329. st_elmo
+3330. stab_trim
+3331. stabilize_criterion
+3332. stabilized_criterion
+3333. stabilizer_trim
+3334. stable_1000
+3335. stable_criterion
+3336. stadium_visual
+3337. stag_guide
+3338. stage_bleed
+3339. stage_valve
+3340. stall_prot
+3341. stall_protection
+3342. stall_recovery
+3343. stall_warn
+3344. stall_warning
+3345. stand_aisle
+3346. stand_precaution
+3347. stand_water
+3348. standard_instrument
+3349. standard_operating
+3350. standard_phraseology
+3351. standard_practice
+3352. standard_separation
+3353. standby_altimeter
+3354. standby_compass
+3355. standby_instrument
+3356. standby_rudder
+3357. start_engs
+3358. starter_cutout
+3359. startle_factor
+3360. static_discharge
+3361. static_port
+3362. static_wick
+3363. station_manager
+3364. station_mgr
+3365. station_operation
+3366. station_ops
+3367. station_personnel
+3368. status_message
+3369. status_page
+3370. stay_awake
+3371. steep_descent
+3372. steer_inop
+3373. steer_tiller
+3374. sterile_cockpit
+3375. stick_shaker
+3376. stop_abruptly
+3377. stop_margin
+3378. stop_short
+3379. storage_compartment
+3380. storm_cell
+3381. stow_bag
+3382. stow_spoiler
+3383. straight_ahead
+3384. straight_forward
+3385. strange_odor
+3386. stress_importance
+3387. strict_adherence
+3388. strike_lightning
+3389. strong_crosswind
+3390. strong_headwind
+3391. strong_odor
+3392. strong_smell
+3393. strong_tailwind
+3394. strong_wind
+3395. strongly_recommend
+3396. strongly_suggest
+3397. structural_damage
+3398. structural_integrity
+3399. structural_repair
+3400. stuck_mic
+3401. subject_matter
+3402. submit_report
+3403. submit_rpt
+3404. successful_landing
+3405. successful_outcome
+3406. sufficient_fuel
+3407. suitable_alternate
+3408. super_tug
+3409. supplemental_info
+3410. supplemental_information
+3411. support_rod
+3412. sure_enough
+3413. surface_detection
+3414. surface_observe
+3415. surface_wind
+3416. surge_stall
+3417. surround_area
+3418. surround_terrain
+3419. svc_bulletin
+3420. svc_chk
+3421. swing_shift
+3422. swiss_cheese
+3423. switch_grind
+3424. synoptic_page
+3425. sys_inop
+3426. system_25l
+3427. system_35r
+3428. system_4r
+3429. system_interference
+3430. system_jam
+3431. system_prm
+3432. system_ra
+3433. system_xxr
+3434. ta_ra
+3435. tail_compartment
+3436. tail_cone
+3437. tail_number
+3438. tail_pipe
+3439. tail_section
+3440. tail_skid
+3441. tail_stand
+3442. tail_strike
+3443. tail_swap
+3444. tail_wind
+3445. tailpipe_fire
+3446. tailwind_component
+3447. take-off_roll
+3448. take_account
+3449. take_care
+3450. take_evasive
+3451. take_handoff
+3452. take_ots
+3453. take_photo
+3454. take_picture
+3455. take_place
+3456. take_seriously
+3457. takeoff_data
+3458. takeoff_roll
+3459. takeoff_thrust
+3460. takeoff_wt
+3461. tank_empty
+3462. tank_fuel
+3463. tank_pump
+3464. tank_quantity
+3465. tanker_fuel
+3466. target_merge
+3467. target_speed
+3468. task_card
+3469. task_hand
+3470. task_loading
+3471. task_saturate
+3472. task_saturation
+3473. taste_mouth
+3474. tat_probe
+3475. taxi_diagram
+3476. taxi_gate
+3477. taxi_instruction
+3478. taxi_lane
+3479. taxi_onto
+3480. taxiway_alpha
+3481. taxiway_b
+3482. taxiway_bravo
+3483. taxiway_c
+3484. taxiway_centerline
+3485. taxiway_charlie
+3486. taxiway_closure
+3487. taxiway_delta
+3488. taxiway_e
+3489. taxiway_echo
+3490. taxiway_f
+3491. taxiway_foxtrot
+3492. taxiway_g
+3493. taxiway_golf
+3494. taxiway_h
+3495. taxiway_j
+3496. taxiway_juliet
+3497. taxiway_k
+3498. taxiway_kilo
+3499. taxiway_n
+3500. taxiway_p
+3501. taxiway_papa
+3502. taxiway_q
+3503. taxiway_signage
+3504. taxiway_tango
+3505. te_flap
+3506. team_member
+3507. tech_ops
+3508. technical_support
+3509. telephone_number
+3510. temperature_rise
+3511. temporary_repair
+3512. ten_mile
+3513. ten_minute
+3514. terminal_area
+3515. terminal_building
+3516. terminal_information
+3517. terminate_emergency
+3518. terr_po
+3519. terrain_avoidance
+3520. terrain_caution
+3521. terrain_display
+3522. terrain_obstacle
+3523. terrain_pull
+3524. terrain_sight
+3525. terrain_terrain
+3526. terrain_warn
+3527. terrain_warning
+3528. text_message
+3529. thank_god
+3530. thermal_imaging
+3531. thing_happen
+3532. think_might
+3533. third_leg
+3534. thirty_minute
+3535. thorough_briefing
+3536. thorough_inspection
+3537. thorough_review
+3538. thoroughly_brief
+3539. thoroughly_debrief
+3540. thoroughly_review
+3541. thought_process
+3542. thousand_foot
+3543. thousand_pound
+3544. three_four
+3545. three_green
+3546. three_mile
+3547. three_separate
+3548. throttle_advance
+3549. throttle_burst
+3550. throttle_idle
+3551. throttle_movement
+3552. throttle_retard
+3553. throughout_cabin
+3554. throughout_entire
+3555. throughout_event
+3556. thrust_idle
+3557. thrust_lever
+3558. thrust_reduction
+3559. thrust_reverse
+3560. thrust_reverser
+3561. thrust_reversers
+3562. thrust_set
+3563. thrust_setting
+3564. thunderstorm_activity
+3565. thunderstorm_area
+3566. thunderstorm_cell
+3567. time_frame
+3568. timely_fashion
+3569. timely_manner
+3570. tipp_toe
+3571. tire_assembly
+3572. tire_blow
+3573. tire_debris
+3574. tire_deflate
+3575. tire_flat
+3576. tire_pressure
+3577. tire_tread
+3578. toe_brake
+3579. toga_button
+3580. toga_detent
+3581. toga_thrust
+3582. toggle_switch
+3583. tone_voice
+3584. top_alley
+3585. top_descent
+3586. top_dscnt
+3587. top_wing
+3588. torque_link
+3589. torque_tube
+3590. torque_wrench
+3591. total_fuel
+3592. total_loss
+3593. touchdown_rollout
+3594. touchdown_smooth
+3595. touchdown_zone
+3596. tow_back
+3597. tow_bar
+3598. tow_gate
+3599. tow_team
+3600. tow_tractor
+3601. toxic_fume
+3602. track_localizer
+3603. tractor_driver
+3604. traffic_collision
+3605. traffic_instructions
+3606. trail_edge
+3607. trailing_edge
+3608. train_developmental
+3609. training_department
+3610. training_progress
+3611. transfer_communication
+3612. transit_light
+3613. transport_hospital
+3614. trap_error
+3615. trash_bag
+3616. tray_table
+3617. trim_nose
+3618. trim_runaway
+3619. trim_setting
+3620. trim_switch
+3621. trim_wheel
+3622. trip_ioe
+3623. triple_chime
+3624. triple_indicator
+3625. trouble_shoot
+3626. troubleshoot_prob
+3627. troubleshoot_problem
+3628. truck_driver
+3629. truck_stand
+3630. try_figure
+3631. tug_driver
+3632. tug_hook
+3633. tug_operator
+3634. tug_pull
+3635. tug_tow
+3636. tunnel_vision
+3637. turbine_temperature
+3638. turbulence_encounter
+3639. turbulence_precede
+3640. turn_onto
+3641. turn_radius
+3642. turn_toward
+3643. turn_towards
+3644. twenty_minute
+3645. two_different
+3646. two_hour
+3647. two_separate
+3648. two_week
+3649. txwy_b
+3650. txwy_c
+3651. txwy_e
+3652. txwy_f
+3653. txwy_g
+3654. txwy_h
+3655. txwy_j
+3656. txwy_k
+3657. txwy_n
+3658. txwy_p
+3659. txwy_v
+3660. type_directional
+3661. type_iv
+3662. unable_duplicate
+3663. unable_maintain
+3664. uncomfortably_close
+3665. uncommanded_roll
+3666. uncontrolled_field
+3667. undesired_state
+3668. uneventful_landing
+3669. uneventful_lndg
+3670. union_representative
+3671. union_safety
+3672. unit_bleed
+3673. unit_run
+3674. unit_tmu
+3675. united_state
+3676. unknown_reason
+3677. unknown_source
+3678. unlimited_visibility
+3679. unnecessary_risk
+3680. unreliable_airspeed
+3681. unsafe_condition
+3682. unsafe_practice
+3683. unsafe_situation
+3684. unusual_attitude
+3685. unusual_noise
+3686. unusual_odor
+3687. unusually_high
+3688. upon_arrival
+3689. upon_arrive
+3690. upon_check-in
+3691. upon_completion
+3692. upon_inspection
+3693. upon_investigation
+3694. upon_lndg
+3695. upon_reach
+3696. upon_receipt
+3697. upon_reflection
+3698. upon_review
+3699. upon_touchdown
+3700. upper_deck
+3701. upper_ecam
+3702. upper_eicas
+3703. upset_recovery
+3704. urgent_care
+3705. use_restroom
+3706. user_friendly
+3707. utility_bus
+3708. v1_rotate
+3709. v1_vr
+3710. v2_20
+3711. v_speed
+3712. valuable_lesson
+3713. valve_open
+3714. vantage_point
+3715. vebit_3s
+3716. vectored_around
+3717. vectored_onto
+3718. veer_left
+3719. veer_right
+3720. vehicle_lane
+3721. verbal_confirmation
+3722. vernon_visual
+3723. vert_separation
+3724. vert_speed
+3725. vertical_guidance
+3726. vertical_lateral
+3727. vertical_mode
+3728. vertical_navigation
+3729. vertical_path
+3730. vertical_profile
+3731. vertical_separation
+3732. vertical_speed
+3733. vertical_stabilizer
+3734. vfr_condition
+3735. vfr_target
+3736. vhf_radio
+3737. via_acars
+3738. via_bravo
+3739. via_cpdlc
+3740. via_intercom
+3741. via_interphone
+3742. via_phone
+3743. via_radio
+3744. via_satcom
+3745. via_standard
+3746. via_telephone
+3747. vice_versa
+3748. view_port
+3749. violate_far
+3750. violation_far
+3751. visible_damage
+3752. visible_smoke
+3753. visual_16l
+3754. visual_19l
+3755. visual_19r
+3756. visual_26
+3757. visual_28l
+3758. visual_28r
+3759. visual_31
+3760. visual_apchs
+3761. visual_cue
+3762. visual_inspection
+3763. visual_separation
+3764. visual_xx
+3765. visual_xxl
+3766. visual_xxr
+3767. visually_acquire
+3768. visually_confirm
+3769. visually_identify
+3770. visually_inspect
+3771. visually_verify
+3772. vmc_condition
+3773. vnav_lnav
+3774. vnav_path
+3775. vnav_pth
+3776. voice_concern
+3777. voice_recorder
+3778. volcanic_ash
+3779. volume_complexity
+3780. vor/distance_measure
+3781. vor_13l
+3782. vref_speed
+3783. wait_till
+3784. wake_encounter
+3785. wake_remnant
+3786. wake_turb
+3787. wake_turbulence
+3788. wake_vortex
+3789. walk_around
+3790. walk_away
+3791. walk_cabin
+3792. walkaround_inspection
+3793. warn_horn
+3794. warn_light
+3795. warn_message
+3796. warn_sound
+3797. warn_system
+3798. warning_bell
+3799. warning_cease
+3800. warning_horn
+3801. warning_message
+3802. watch_closely
+3803. water_bottle
+3804. water_leak
+3805. wear_mask
+3806. wear_pin
+3807. weather_avoidance
+3808. weather_condition
+3809. weather_deviation
+3810. weather_forecast
+3811. weather_packet
+3812. weather_vfr
+3813. weather_vmc
+3814. week_ago
+3815. week_later
+3816. weight_balance
+3817. weight_manifest
+3818. west_bound
+3819. west_coast
+3820. west_side
+3821. wet_snow
+3822. whatever_reason
+3823. wheel_assembly
+3824. wheel_chair
+3825. wheel_chock
+3826. wheel_steer
+3827. wheel_steering
+3828. wheel_well
+3829. white_needle
+3830. white_sand
+3831. white_smoke
+3832. wide_body
+3833. wind_aloft
+3834. wind_blow
+3835. wind_calm
+3836. wind_favor
+3837. wind_gust
+3838. wind_gusting
+3839. wind_shear
+3840. wind_shift
+3841. window_crack
+3842. window_heat
+3843. window_shade
+3844. windshear_advisory
+3845. windshear_alert
+3846. windshear_recovery
+3847. windshear_warning
+3848. windshield_crack
+3849. windshield_heat
+3850. windshield_shatter
+3851. windshield_wiper
+3852. wing_anti-ice
+3853. wing_body
+3854. wing_level
+3855. wing_root
+3856. wing_tank
+3857. wing_tip
+3858. wing_walker
+3859. wingtip_clearance
+3860. wire_bundle
+3861. wire_harness
+3862. wireless_headset
+3863. within_limit
+3864. within_limitation
+3865. within_minute
+3866. within_parameter
+3867. within_second
+3868. within_tolerance
+3869. without_complication
+3870. without_hesitation
+3871. without_incidence
+3872. without_incident
+3873. without_knowledge
+3874. without_permission
+3875. without_success
+3876. work_advertised
+3877. work_card
+3878. work_fine
+3879. work_local
+3880. work_properly
+3881. work_together
+3882. workload_environment
+3883. worth_note
+3884. would_beneficial
+3885. would_helpful
+3886. would_like
+3887. would_nice
+3888. would_prefer
+3889. would_prudent
+3890. wrap_around
+3891. write-up_logbook
+3892. write_discrepancy
+3893. write_logbook
+3894. write_ups
+3895. wrong_direction
+3896. wt_bal
+3897. wt_manifest
+3898. wx_clr
+3899. x_-zzz1
+3900. xa_00
+3901. xa_30
+3902. xa_45
+3903. xb_00
+3904. xbleed_start
+3905. xfeed_valve
+3906. xferred_ctl
+3907. xferred_ctls
+3908. xing_alt
+3909. xing_restr
+3910. xx_01
+3911. xx_1
+3912. xx_10
+3913. xx_11
+3914. xx_15
+3915. xx_16
+3916. xx_2
+3917. xx_20
+3918. xx_28
+3919. xx_3
+3920. xx_41
+3921. xx_42
+3922. xx_x
+3923. xx_y
+3924. xx_year
+3925. xx_z
+3926. yaw_damp
+3927. yaw_damper
+3928. yaw_motion
+3929. year_ago
+3930. year_old
+3931. yell_stop
+3932. yellow_band
+3933. yellow_hydraulic
+3934. yellow_line
+3935. yr_ago
+3936. zero_fuel
+3937. zzz1_zzz2
+3938. zzz2_zzz3
+3939. zzzzz1_intersection
+3940. zzzzz1_zzzzz2
+3941. zzzzz_arrival
+3942. zzzzz_intersection
+3943. zzzzz_zzzzz1
+
+6. TRIGRAM VOCABULARY
+--------------------------------------------------------------------------------
+Total unique trigrams: 467
+
+   1. 000_foot_per
+   2. 000_ground_level
+   3. 000_lb_fuel
+   4. 000_mean_sea
+   5. 1000_ground_level
+   6. 10_000_foot
+   7. 10_distance_measure
+   8. 10_mile_trail
+   9. 11_000_foot
+  10. 12_000_foot
+  11. 12_clock_po
+  12. 13_000_foot
+  13. 14_000_foot
+  14. 15_000_foot
+  15. 16_000_foot
+  16. 176_deg_radial
+  17. 17_000_foot
+  18. 18_000_foot
+  19. 223_deg_radial
+  20. 3000_mean_sea
+  21. 30_degree_bank
+  22. 37_000_foot
+  23. 3_000_foot
+  24. 4000_mean_sea
+  25. 45_degree_angle
+  26. 4_000_foot
+  27. 4_distance_measure
+  28. 4_distance_measuring
+  29. 500_ground_level
+  30. 500_mean_sea
+  31. 5_000_foot
+  32. 5_distance_measure
+  33. 5_distance_measuring
+  34. 5_mile_trail
+  35. 6_000_foot
+  36. 7_000_foot
+  37. 8_000_foot
+  38. 8_distance_measure
+  39. 9_000_foot
+  40. __
+  41. accomplish_quick_reference
+  42. accordance_minimum_equipment
+  43. accordance_quick_reference
+  44. actual_navigation_performance
+  45. advance_thrust_lever
+  46. advertise_automatic_terminal
+  47. aft_cargo_bin
+  48. aft_cargo_compartment
+  49. airworthiness_directive_ad
+  50. alternate_flap_extension
+  51. alternate_gear_extension
+  52. altimeter_29_92
+  53. altimeter_setting_29
+  54. aml_maintenance_log
+  55. applicable_quick_reference
+  56. apply_minimum_equipment
+  57. appropriate_quick_reference
+  58. approximately_10_000
+  59. arff_rescue_firefighting
+  60. attempt_start_auxiliary
+  61. attendant_remain_seated
+  62. attitude_director_indicator
+  63. automated_surface_observe
+  64. automatic_dependent_surveillance
+  65. automatic_dependent_surveillance-b
+  66. autopilot_auto_throttle
+  67. auxiliary_power_unit
+  68. aviation_routine_weather
+  69. avoidance_system_advisory
+  70. avoidance_system_alert
+  71. avoidance_system_climb
+  72. avoidance_system_command
+  73. avoidance_system_display
+  74. avoidance_system_event
+  75. avoidance_system_indicate
+  76. avoidance_system_issue
+  77. avoidance_system_ra
+  78. avoidance_system_screen
+  79. avoidance_system_show
+  80. avoidance_system_system
+  81. avoidance_system_ta
+  82. avoidance_system_target
+  83. avoidance_system_traffic
+  84. avoidance_system_warn
+  85. become_task_saturate
+  86. best_course_action
+  87. breezy_point_clb
+  88. bridge_visual_28r
+  89. bring_thrust_lever
+  90. cabin_warn_horn
+  91. calibrate_airspeed_message
+  92. call_clearance_delivery
+  93. cancel_instrument_rule
+  94. cancel_takeoff_clearance
+  95. capture_glide_slope
+  96. cargo_door_open
+  97. caution_light_illuminate
+  98. caution_wake_turbulence
+  99. check_circuit_breaker
+ 100. checklist_quick_reference
+ 101. chief_plt_office
+ 102. circuit_breaker_c/b
+ 103. circuit_breaker_cb
+ 104. circuit_breaker_panel
+ 105. circuit_breaker_pop
+ 106. circuit_breaker_pull
+ 107. circuit_breaker_reset
+ 108. circuit_breaker_trip
+ 109. class_b_airspace
+ 110. class_c_airspace
+ 111. climb_10_000
+ 112. climb_3_000
+ 113. climb_4_000
+ 114. climb_5_000
+ 115. climb_via_standard
+ 116. commercial_chart_page
+ 117. complete_quick_reference
+ 118. comply_minimum_equipment
+ 119. comply_quick_reference
+ 120. comply_traffic_collision
+ 121. condition_instrument_meteorological
+ 122. configuration_warn_horn
+ 123. conflict_alert_activate
+ 124. contact_clearance_delivery
+ 125. continuous_light_chop
+ 126. continuous_moderate_turbulence
+ 127. contract_maintenance_arrive
+ 128. corrective_action_take
+ 129. could_no_longer
+ 130. couple_minute_later
+ 131. cover_nose_mouth
+ 132. crash_fire_rescue
+ 133. cross_hold_short
+ 134. ctr_tank_pump
+ 135. customer_service_agent
+ 136. customer_service_manager
+ 137. customer_service_representative
+ 138. customer_service_supervisor
+ 139. dangerous_good_acknowledgement
+ 140. dangerous_good_agent
+ 141. dangerous_good_container
+ 142. dangerous_good_form
+ 143. dangerous_good_load
+ 144. dangerous_good_manifest
+ 145. dangerous_good_notification
+ 146. dangerous_good_onboard
+ 147. dangerous_good_paperwork
+ 148. dangerous_good_specialist
+ 149. dangerous_good_summary
+ 150. decide_request_priority
+ 151. decision_make_divert
+ 152. declare_emer_ctr
+ 153. declare_emer_request
+ 154. declare_emergency_divert
+ 155. declare_emergency_request
+ 156. declare_emergency_return
+ 157. declare_emergency_traffic
+ 158. deploy_thrust_reversers
+ 159. descend_10_000
+ 160. descend_11_000
+ 161. descend_3_000
+ 162. descend_4_000
+ 163. descend_5_000
+ 164. descend_6_000
+ 165. descent_10_000
+ 166. digital_automatic_terminal
+ 167. directional_aid_z
+ 168. dirty_sock_odor
+ 169. dirty_sock_smell
+ 170. disconnect_auto_throttle
+ 171. disconnect_autopilot_autothrottles
+ 172. disconnect_tow_bar
+ 173. dispatch_via_acars
+ 174. distance_measure_equipment
+ 175. distance_measuring_equipment
+ 176. divert_near_suitable
+ 177. drive_hydraulic_pump
+ 178. due_close_proximity
+ 179. e_e_compartment
+ 180. ecam_quick_reference
+ 181. efis_comp_mon
+ 182. eicas_message_illuminate
+ 183. electric_hydraulic_pump
+ 184. electrical_burning_smell
+ 185. emergency_equipment_standing
+ 186. encounter_moderate_turbulence
+ 187. encounter_severe_turbulence
+ 188. encounter_wake_turbulence
+ 189. engine__
+ 190. engine_exhaust_gas
+ 191. engine_pressure_ratio
+ 192. engineering_order_eo
+ 193. enhance_ground_proximity
+ 194. enter_instrument_meteorological
+ 195. exceed_10_000
+ 196. excellent_resource_management
+ 197. execute_go_around
+ 198. exercise_emer_auth
+ 199. exercise_emergency_authority
+ 200. exhaust_gas_temperature
+ 201. false_glide_slope
+ 202. fasten_seat_belt
+ 203. finish_quick_reference
+ 204. five_minute_later
+ 205. floor_class_b
+ 206. fly_instrument_meteorological
+ 207. fma_mode_annunciator
+ 208. follow_quick_reference
+ 209. follow_traffic_collision
+ 210. following_info_reporter
+ 211. following_info_rptr
+ 212. foreign_object_debris
+ 213. forward_cargo_bin
+ 214. forward_cargo_compartment
+ 215. four_day_trip
+ 216. full_scale_deflection
+ 217. get_ground_proximity
+ 218. get_stick_shaker
+ 219. get_traffic_collision
+ 220. glide_slope_capture
+ 221. glide_slope_indication
+ 222. glide_slope_intercept
+ 223. glide_slope_localizer
+ 224. glide_slope_signal
+ 225. global_positioning_system
+ 226. go_back_forth
+ 227. good_situational_awareness
+ 228. gust_lock_lever
+ 229. gusty_wind_condition
+ 230. halon_fire_extinguisher
+ 231. handbook_quick_reference
+ 232. hear_loud_bang
+ 233. high_exhaust_gas
+ 234. high_speed_regime
+ 235. high_workload_environment
+ 236. hit_wake_turbulence
+ 237. hold_short_4l
+ 238. hold_short_line
+ 239. hook_tow_bar
+ 240. horizontal_situation_indicator
+ 241. hydraulic_sys_press
+ 242. illustrate_part_catalog
+ 243. immediate_action_item
+ 244. indicated_airspeed_disagree
+ 245. indicating_alert_system
+ 246. inertial_navigation_system
+ 247. inside_final_fix
+ 248. instrument_land_system
+ 249. instrument_meteorological_condition
+ 250. integrate_drive_generator
+ 251. integrated_drive_generator
+ 252. intercept_final_course
+ 253. intercept_glide_slope
+ 254. knot_indicate_airspeed
+ 255. l_bleed_duct
+ 256. l_hydraulic_qty
+ 257. lack_situational_awareness
+ 258. land_near_suitable
+ 259. land_without_incident
+ 260. lavatory_smoke_detector
+ 261. le_slat_asym
+ 262. lead_edge_device
+ 263. lead_edge_slat
+ 264. left_wing_walker
+ 265. legs_page_fmc
+ 266. level_10_000
+ 267. level_11_000
+ 268. level_12_000
+ 269. level_3_000
+ 270. level_4_000
+ 271. level_5_000
+ 272. light_moderate_chop
+ 273. light_remain_illuminated
+ 274. like_dirty_sock
+ 275. limited_data_block
+ 276. line_check_airman
+ 277. listen_automatic_terminal
+ 278. lithium_ion_battery
+ 279. localizer_glide_slope
+ 280. localizer_type_directional
+ 281. log_book_entry
+ 282. lose_global_positioning
+ 283. lose_situational_awareness
+ 284. loss_situational_awareness
+ 285. low_oil_pressure
+ 286. lower_landing_gear
+ 287. main_cabin_door
+ 288. main_fuel_tank
+ 289. main_landing_gear
+ 290. main_lndg_gear
+ 291. maintain_10_000
+ 292. maintain_3_000
+ 293. maintain_4_000
+ 294. maintain_5_000
+ 295. maintain_6_000
+ 296. maintain_situational_awareness
+ 297. maintain_visual_separation
+ 298. maintenance_manual_amm
+ 299. make_logbook_entry
+ 300. management_system_bridge
+ 301. management_system_database
+ 302. management_system_program
+ 303. manual_gear_extension
+ 304. manual_middle_marker
+ 305. manufacturer_part_number
+ 306. master_caution_illuminate
+ 307. master_caution_light
+ 308. master_warn_light
+ 309. master_warn_message
+ 310. max_lndg_wt
+ 311. maximum_landing_weight
+ 312. mcp_mode_panel
+ 313. mean_sea_level
+ 314. military_operation_area
+ 315. minimum_equipment_list
+ 316. minimum_equipment_list/cdl
+ 317. miss_notice_airmen
+ 318. moderate_severe_turbulence
+ 319. momentary_stick_shaker
+ 320. national_airspace_system
+ 321. national_weather_service
+ 322. navigation_display_nd
+ 323. nd_navigation_display
+ 324. new_automatic_terminal
+ 325. night_instrument_meteorological
+ 326. no_one_injure
+ 327. nose_gear_strut
+ 328. nose_wheel_steer
+ 329. nose_wheel_steering
+ 330. occasional_light_chop
+ 331. occasional_moderate_turbulence
+ 332. oil_filter_bypass
+ 333. oil_pressure_drop
+ 334. outflow_valve_close
+ 335. outside_final_fix
+ 336. overheat_light_illuminate
+ 337. overwt_lndg_chklist
+ 338. oxygen_mask_deploy
+ 339. park_brake_set
+ 340. part_number_p/n
+ 341. pass_10_000
+ 342. passenger_remain_seated
+ 343. past_hold_short
+ 344. pay_close_attention
+ 345. per_company_policy
+ 346. per_minimum_equipment
+ 347. perform_quick_reference
+ 348. pfd_primary_display
+ 349. popped_circuit_breaker
+ 350. portable_oxygen_bottle
+ 351. positive_rate_gear
+ 352. post_walk_around
+ 353. pre-departure_clearance_clearance
+ 354. precautionary_engine_shutdown
+ 355. precision_path_indicator
+ 356. primary_display_pfd
+ 357. program_management_system
+ 358. pull_circuit_breaker
+ 359. pull_quick_reference
+ 360. pull_thrust_lever
+ 361. pump_lo_pr
+ 362. push_thrust_lever
+ 363. put_oxygen_mask
+ 364. quick_reference_handbook
+ 365. ra_monitor_vertical
+ 366. ra_traffic_collision
+ 367. ran_quick_reference
+ 368. reach_10_000
+ 369. read_back_clearance
+ 370. read_back_correctly
+ 371. read_back_instruction
+ 372. read_minimum_equipment
+ 373. read_quick_reference
+ 374. receive_ground_proximity
+ 375. receive_traffic_collision
+ 376. refer_quick_reference
+ 377. reference_handbook_procedure
+ 378. reference_quick_reference
+ 379. reject_takeoff_rto
+ 380. remove_replace_r/r
+ 381. reprogram_management_system
+ 382. request_priority_handle
+ 383. request_priority_handling
+ 384. require_navigation_performance
+ 385. required_navigation_performance
+ 386. rescue_fire_fighter
+ 387. rescue_fire_fighting
+ 388. rescue_firefighting_arff
+ 389. reset_circuit_breaker
+ 390. resolution_advisory_ra
+ 391. respond_traffic_collision
+ 392. restart_auxiliary_power
+ 393. retard_throttle_idle
+ 394. retard_thrust_lever
+ 395. review_minimum_equipment
+ 396. review_quick_reference
+ 397. right_wing_walker
+ 398. river_visual_19
+ 399. rnav_require_navigation
+ 400. rsvr_lo_lvl
+ 401. safe_course_action
+ 402. salute_release_guidance
+ 403. saw_traffic_collision
+ 404. seat_belt_fasten
+ 405. seat_belt_sign
+ 406. seat_seat_belt
+ 407. seek_medical_attention
+ 408. send_acars_message
+ 409. severe_turbulence_encounter
+ 410. share_mental_model
+ 411. shut_auxiliary_power
+ 412. significant_wake_turbulence
+ 413. similar_call_sign
+ 414. single_engine_landing
+ 415. single_engine_taxi
+ 416. slow_250_kt
+ 417. smoke_fire_fume
+ 418. soul_board_fuel
+ 419. stabilizer_trim_inoperative
+ 420. standard_instrument_departure
+ 421. standby_airspeed_indicator
+ 422. stick_shaker_activate
+ 423. stick_shaker_activation
+ 424. still_instrument_meteorological
+ 425. structural_repair_manual
+ 426. supplemental_info_acn
+ 427. surface_detection_equipment
+ 428. surface_detection_equipment-x
+ 429. system_distance_measure
+ 430. takeoff_warn_horn
+ 431. target_traffic_collision
+ 432. te_flap_disagree
+ 433. temperature_exhaust_gas
+ 434. ten_minute_later
+ 435. terminal_information_service
+ 436. terrain_ground_proximity
+ 437. terrain_terrain_pull
+ 438. thrust_lever_idle
+ 439. tow_bar_disconnect
+ 440. traffic_traffic_collision
+ 441. trail_edge_flap
+ 442. trailing_edge_flap
+ 443. trigger_ground_proximity
+ 444. tripped_circuit_breaker
+ 445. tug_tow_bar
+ 446. turn_seat_belt
+ 447. type_iv_fluid
+ 448. vehicle_service_road
+ 449. vertical_speed_mode
+ 450. visually_traffic_collision
+ 451. vor/distance_measure_equipment
+ 452. vor_distance_measure
+ 453. wake_turbulence_encounter
+ 454. wake_turbulence_precede
+ 455. wake_turbulence_separation
+ 456. walk_around_inspection
+ 457. warn_horn_sound
+ 458. warn_light_illuminate
+ 459. warn_system_alert
+ 460. warn_system_caution
+ 461. warn_system_warn
+ 462. warn_system_warning
+ 463. wear_face_mask
+ 464. weather_instrument_meteorological
+ 465. within_touchdown_zone
+ 466. zero_fuel_weight
+ 467. zero_fuel_wt
