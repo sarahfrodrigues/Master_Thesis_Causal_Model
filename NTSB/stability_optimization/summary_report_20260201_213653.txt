@@ -1,0 +1,48 @@
+================================================================================
+BERTopic Configuration Stability Optimization Report
+================================================================================
+
+Generated: 2026-02-d 21:36:53
+Dataset size: 845 documents
+Configurations tested: 10
+Iterations per config: 10
+
+================================================================================
+TOP 3 CONFIGURATIONS
+================================================================================
+
+1. GS_Top8_coh0.670
+ min_topic_size=50
+min_samples=8 
+n_neighbors=15
+Mean Similarity: 0.0436
+Mean Topics: 6.1
+Outlier Rate: 3.3%Stability: 0.5004
+2. GS_Top2_coh0.670
+ min_topic_size=50
+min_samples=10 
+n_neighbors=15
+Mean Similarity: 0.0414
+Mean Topics: 5.8
+Outlier Rate: 1.1%Stability: 0.4874
+3. GS_Top1_coh0.670
+ min_topic_size=50
+min_samples=8 
+n_neighbors=15
+Mean Similarity: 0.0339
+Mean Topics: 5.7
+Outlier Rate: 2.8%Stability: 0.4873
+================================================================================
+RECOMMENDED PARAMETERS FOR PRODUCTION
+================================================================================
+
+min_topic_size = 50
+min_samples = 8
+n_neighbors = 15
+
+Expected Performance:
+Topic Stability: 4.4%
+Number of Topics: ~6
+Outlier Docs: 3.3%
+Stability Level: MODERATE/POOR
+Consider further parameter optimization.

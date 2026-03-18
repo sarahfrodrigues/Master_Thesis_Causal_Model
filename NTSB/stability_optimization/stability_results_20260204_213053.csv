@@ -1,0 +1,11 @@
+config_name,min_topic_size,min_samples,n_neighbors,mean_similarity,stability_tier
+Config_1,15,5,15,0.0,FAILED
+Config_2,25,7,10,0.0,FAILED
+Config_3,25,7,10,0.0,FAILED
+Config_4,20,5,15,0.0,FAILED
+Config_5,20,7,10,0.0,FAILED
+Config_6,20,7,10,0.0,FAILED
+Config_7,20,5,20,0.0,FAILED
+Config_8,20,4,15,0.0,FAILED
+Config_9,25,8,10,0.0,FAILED
+Config_10,20,6,15,0.0,FAILED

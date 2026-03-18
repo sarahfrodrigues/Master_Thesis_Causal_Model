@@ -1,0 +1,12 @@
+﻿source,target,endpoints
+topic_1,topic_2,1---1
+topic_1,topic_7,1--1
+topic_1,topic_8,1--1
+topic_2,topic_4,1--1
+topic_2,topic_7,1--1
+topic_2,topic_8,1--1
+topic_3,topic_7,2--1
+topic_4,topic_5,1--2
+topic_4,topic_7,1--1
+topic_5,topic_8,2--1
+topic_6,topic_8,2--1
